@@ -1,0 +1,190 @@
+12/12/2023 09:20:21 - WARNING - __main__ - Process rank: -1, device: cuda:0, n_gpu: 1distributed training: False, 16-bits training: False
+12/12/2023 09:20:21 - INFO - __main__ - FLADTrainingArguments(
+FLAD_strategy=batched,
+_n_gpu=1,
+adafactor=False,
+adam_beta1=0.9,
+adam_beta2=0.999,
+adam_epsilon=1e-08,
+auto_find_batch_size=False,
+bf16=True,
+bf16_full_eval=False,
+data_seed=None,
+dataloader_drop_last=False,
+dataloader_num_workers=0,
+dataloader_pin_memory=True,
+dataset_similarity_threshold=None,
+ddp_bucket_cap_mb=None,
+ddp_find_unused_parameters=None,
+ddp_timeout=1800,
+debug=[],
+deepspeed=None,
+disable_tqdm=False,
+do_eval=True,
+do_predict=False,
+do_train=True,
+eval_accumulation_steps=None,
+eval_delay=50.0,
+eval_steps=10,
+evaluation_strategy=steps,
+exp3=False,
+fp16=False,
+fp16_backend=auto,
+fp16_full_eval=False,
+fp16_opt_level=O1,
+fsdp=[],
+fsdp_min_num_params=0,
+fsdp_transformer_layer_cls_to_wrap=None,
+full_determinism=False,
+generation_max_length=None,
+generation_num_beams=None,
+gradient_accumulation_steps=2,
+gradient_checkpointing=True,
+gradient_directed=False,
+greater_is_better=True,
+group_by_length=False,
+half_precision_backend=auto,
+hub_model_id=None,
+hub_private_repo=False,
+hub_strategy=every_save,
+hub_token=<HUB_TOKEN>,
+ignore_data_skip=False,
+include_inputs_for_metrics=False,
+jit_mode_eval=False,
+label_names=None,
+label_smoothing_factor=0.0,
+learning_rate=0.0001,
+length_column_name=length,
+length_norm=1,
+load_best_model_at_end=True,
+local_rank=-1,
+log_level=passive,
+log_level_replica=passive,
+log_on_each_node=True,
+log_samples_per_dataset=True,
+logging_dir=outputs/T5_LM_3B/target_only/42/copa/1e-4/runs/Dec12_09-20-21_sws-2a100-03,
+logging_first_step=False,
+logging_nan_inf_filter=True,
+logging_steps=10,
+logging_strategy=steps,
+loss_scaling=False,
+lr_scheduler_type=constant_with_warmup,
+max_grad_norm=1.0,
+max_steps=1000,
+metric_for_best_model=accuracy,
+micro_batch_size=0,
+mp_parameters=,
+no_cuda=False,
+num_train_epochs=3.0,
+offload_grads=False,
+optim=adafactor,
+output_dir=outputs/T5_LM_3B/target_only/42/copa/1e-4,
+overwrite_output_dir=True,
+past_index=-1,
+patience=10,
+per_device_eval_batch_size=128,
+per_device_train_batch_size=8,
+precomputed_grad_save_dir=/NS/llm-1/work/afkhan/Testing/FLAD/src,
+precomputed_weight_save_dir=/NS/llm-1/work/afkhan/Testing/FLAD/src,
+predict_with_generate=True,
+prediction_loss_only=False,
+push_to_hub=False,
+push_to_hub_model_id=None,
+push_to_hub_organization=None,
+push_to_hub_token=<PUSH_TO_HUB_TOKEN>,
+ray_scope=last,
+relative_sampling_from_target=-1.0,
+remove_unused_columns=True,
+report_to=[],
+resume_from_checkpoint=None,
+reward_function=cosine,
+reward_model_partition=weight,
+run_name=outputs/T5_LM_3B/target_only/42/copa/1e-4,
+save_on_each_node=False,
+save_steps=10,
+save_strategy=steps,
+save_total_limit=1,
+seed=42,
+sharded_ddp=[],
+similarity_beta=1.0,
+skip_memory_metrics=True,
+sortish_sampler=False,
+target_training_frequency=1,
+tf32=True,
+torchdynamo=None,
+tpu_metrics_debug=False,
+tpu_num_cores=None,
+train_strategy=target_only,
+ucb1=False,
+use_ipex=False,
+use_legacy_prediction_loop=False,
+use_mps_device=False,
+warmup_ratio=0.1,
+warmup_steps=0,
+weight_decay=0.0,
+weight_initialization_samples=0,
+weighted_batch_sampling=False,
+xpu_backend=None,
+)
+12/12/2023 09:20:21 - INFO - __main__ - DataTrainingArguments(overwrite_cache=False, preprocessing_num_workers=None, max_source_length=1024, max_target_length=128, val_max_target_length=128, pad_to_max_length=False, num_beams=None, ignore_pad_token_for_loss=True, forced_bos_token=None, auxiliary_dataset=None, max_samples_per_auxiliary_dataset=10000, target_dataset='copa', train_template_idx=-1, eval_template_idx=(Field(name=None,type=None,default=-1,default_factory=<dataclasses._MISSING_TYPE object at 0x7fea0145c370>,init=True,repr=True,hash=None,compare=True,metadata=mappingproxy({'help': 'If using a single template, specify here. -1 is default, uses all templates.'}),_field_type=None),), max_predict_samples=None, include_T0_eval=False)
+12/12/2023 09:20:21 - INFO - __main__ - TargetDatasetArguments(num_shot=32, few_shot_random_seed=42, change_hswag_templates=True, raft_cross_validation=True, raft_validation_start=0, raft_labels_in_input_string='comma', cleaned_answer_choices_b77=True)
+12/12/2023 09:20:23 - INFO - __main__ - Dataset Metadata (train):
+| copa - 16 samples 
+Total samples: 16
+12/12/2023 09:20:23 - INFO - __main__ - Dataset Metadata (validation):
+| copa - 16 samples 
+Total samples: 16
+12/12/2023 09:20:24 - INFO - datasets.info - Loading Dataset Infos from /NS/llm-1/nobackup/afkhan/HF_CACHE/Misc/modules/datasets_modules/datasets/super_glue/bb9675f958ebfee0d5d6dc5476fafe38c79123727a7258d515c450873dbdbbed
+12/12/2023 09:20:24 - INFO - datasets.builder - Overwrite dataset info from restored data version if exists.
+12/12/2023 09:20:24 - INFO - datasets.info - Loading Dataset info from /NS/llm-1/nobackup/afkhan/HF_CACHE/Misc/super_glue/copa/1.0.3/bb9675f958ebfee0d5d6dc5476fafe38c79123727a7258d515c450873dbdbbed
+12/12/2023 09:20:25 - INFO - datasets.builder - Found cached dataset super_glue (/NS/llm-1/nobackup/afkhan/HF_CACHE/Misc/super_glue/copa/1.0.3/bb9675f958ebfee0d5d6dc5476fafe38c79123727a7258d515c450873dbdbbed)
+12/12/2023 09:20:25 - INFO - datasets.info - Loading Dataset info from /NS/llm-1/nobackup/afkhan/HF_CACHE/Misc/super_glue/copa/1.0.3/bb9675f958ebfee0d5d6dc5476fafe38c79123727a7258d515c450873dbdbbed
+12/12/2023 09:20:25 - INFO - __main__ - Dataset Metadata (evaluation):
+| copa - 100 samples 
+Total samples: 100
+{'step': 10, 'loss': 1.3511, 'learning_rate': 1e-05, 'samples_seen_per_dataset': {'copa': 160}, 'epoch': 10.0}
+{'step': 20, 'loss': 0.789, 'learning_rate': 2e-05, 'samples_seen_per_dataset': {'copa': 320}, 'epoch': 20.0}
+{'step': 30, 'loss': 0.2289, 'learning_rate': 3e-05, 'samples_seen_per_dataset': {'copa': 480}, 'epoch': 30.0}
+{'step': 40, 'loss': 0.0212, 'learning_rate': 4e-05, 'samples_seen_per_dataset': {'copa': 640}, 'epoch': 40.0}
+{'step': 50, 'loss': 0.0116, 'learning_rate': 5e-05, 'samples_seen_per_dataset': {'copa': 800}, 'epoch': 50.0}
+{'eval_accuracy': 0.5625, 'eval_runtime': 0.1787, 'eval_samples_per_second': 89.518, 'eval_steps_per_second': 5.595, 'epoch': 50.0}
+{'step': 60, 'loss': 0.0016, 'learning_rate': 6e-05, 'samples_seen_per_dataset': {'copa': 960}, 'epoch': 60.0}
+{'eval_accuracy': 0.5, 'eval_runtime': 0.1902, 'eval_samples_per_second': 84.108, 'eval_steps_per_second': 5.257, 'epoch': 60.0}
+{'step': 70, 'loss': 0.0015, 'learning_rate': 7e-05, 'samples_seen_per_dataset': {'copa': 1120}, 'epoch': 70.0}
+{'eval_accuracy': 0.5625, 'eval_runtime': 0.7707, 'eval_samples_per_second': 20.761, 'eval_steps_per_second': 1.298, 'epoch': 70.0}
+{'step': 80, 'loss': 0.0004, 'learning_rate': 8e-05, 'samples_seen_per_dataset': {'copa': 1280}, 'epoch': 80.0}
+{'eval_accuracy': 0.625, 'eval_runtime': 0.2793, 'eval_samples_per_second': 57.291, 'eval_steps_per_second': 3.581, 'epoch': 80.0}
+{'step': 90, 'loss': 0.0014, 'learning_rate': 9e-05, 'samples_seen_per_dataset': {'copa': 1440}, 'epoch': 90.0}
+{'eval_accuracy': 0.5625, 'eval_runtime': 0.2959, 'eval_samples_per_second': 54.08, 'eval_steps_per_second': 3.38, 'epoch': 90.0}
+{'step': 100, 'loss': 0.0001, 'learning_rate': 0.0001, 'samples_seen_per_dataset': {'copa': 1600}, 'epoch': 100.0}
+{'eval_accuracy': 0.5625, 'eval_runtime': 0.2764, 'eval_samples_per_second': 57.888, 'eval_steps_per_second': 3.618, 'epoch': 100.0}
+{'step': 110, 'loss': 0.0001, 'learning_rate': 0.0001, 'samples_seen_per_dataset': {'copa': 1760}, 'epoch': 110.0}
+{'eval_accuracy': 0.5625, 'eval_runtime': 0.6017, 'eval_samples_per_second': 26.592, 'eval_steps_per_second': 1.662, 'epoch': 110.0}
+{'step': 120, 'loss': 0.0001, 'learning_rate': 0.0001, 'samples_seen_per_dataset': {'copa': 1920}, 'epoch': 120.0}
+{'eval_accuracy': 0.5625, 'eval_runtime': 0.2861, 'eval_samples_per_second': 55.921, 'eval_steps_per_second': 3.495, 'epoch': 120.0}
+{'step': 130, 'loss': 0.0001, 'learning_rate': 0.0001, 'samples_seen_per_dataset': {'copa': 2080}, 'epoch': 130.0}
+{'eval_accuracy': 0.625, 'eval_runtime': 0.2636, 'eval_samples_per_second': 60.696, 'eval_steps_per_second': 3.794, 'epoch': 130.0}
+{'step': 140, 'loss': 0.0, 'learning_rate': 0.0001, 'samples_seen_per_dataset': {'copa': 2240}, 'epoch': 140.0}
+{'eval_accuracy': 0.5, 'eval_runtime': 0.7029, 'eval_samples_per_second': 22.763, 'eval_steps_per_second': 1.423, 'epoch': 140.0}
+{'step': 150, 'loss': 0.0, 'learning_rate': 0.0001, 'samples_seen_per_dataset': {'copa': 2400}, 'epoch': 150.0}
+{'eval_accuracy': 0.5625, 'eval_runtime': 0.2266, 'eval_samples_per_second': 70.602, 'eval_steps_per_second': 4.413, 'epoch': 150.0}
+{'step': 160, 'loss': 0.0001, 'learning_rate': 0.0001, 'samples_seen_per_dataset': {'copa': 2560}, 'epoch': 160.0}
+{'eval_accuracy': 0.5625, 'eval_runtime': 0.2805, 'eval_samples_per_second': 57.041, 'eval_steps_per_second': 3.565, 'epoch': 160.0}
+{'step': 170, 'loss': 0.0001, 'learning_rate': 0.0001, 'samples_seen_per_dataset': {'copa': 2720}, 'epoch': 170.0}
+{'eval_accuracy': 0.5, 'eval_runtime': 0.2675, 'eval_samples_per_second': 59.808, 'eval_steps_per_second': 3.738, 'epoch': 170.0}
+{'step': 180, 'loss': 0.0, 'learning_rate': 0.0001, 'samples_seen_per_dataset': {'copa': 2880}, 'epoch': 180.0}
+{'eval_accuracy': 0.625, 'eval_runtime': 0.3932, 'eval_samples_per_second': 40.687, 'eval_steps_per_second': 2.543, 'epoch': 180.0}
+{'train_runtime': 1822.5047, 'train_samples_per_second': 8.779, 'train_steps_per_second': 0.549, 'train_loss': 0.13375238734863362, 'epoch': 180.0}
+***** train metrics *****
+  epoch                    =      180.0
+  train_loss               =     0.1338
+  train_runtime            = 0:30:22.50
+  train_samples_per_second =      8.779
+  train_steps_per_second   =      0.549
+12/12/2023 09:52:28 - INFO - __main__ - *** Evaluate ***
+***** eval metrics *****
+  epoch                   =      180.0
+  eval_accuracy           =       0.59
+  eval_runtime            = 0:00:01.27
+  eval_samples_per_second =     78.361
+  eval_steps_per_second   =      0.784
