@@ -1,0 +1,250 @@
+/NS/llm-1/nobackup/afkhan/anaconda3/envs/flad_env_a100/lib/python3.8/site-packages/pydantic/_internal/_config.py:321: UserWarning: Valid config keys have changed in V2:
+* 'allow_population_by_field_name' has been renamed to 'populate_by_name'
+* 'validate_all' has been renamed to 'validate_default'
+  warnings.warn(message, UserWarning)
+/NS/llm-1/nobackup/afkhan/anaconda3/envs/flad_env_a100/lib/python3.8/site-packages/pydantic/_internal/_fields.py:149: UserWarning: Field "model_persistence_threshold" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/NS/llm-1/nobackup/afkhan/anaconda3/envs/flad_env_a100/lib/python3.8/site-packages/pydantic/_internal/_config.py:321: UserWarning: Valid config keys have changed in V2:
+* 'validate_all' has been renamed to 'validate_default'
+  warnings.warn(message, UserWarning)
+Loading Dataset Infos from /NS/llm-1/nobackup/afkhan/HF_CACHE/Misc/modules/datasets_modules/datasets/super_glue/bb9675f958ebfee0d5d6dc5476fafe38c79123727a7258d515c450873dbdbbed
+Overwrite dataset info from restored data version if exists.
+Loading Dataset info from /NS/llm-1/nobackup/afkhan/HF_CACHE/Misc/super_glue/copa/1.0.3/bb9675f958ebfee0d5d6dc5476fafe38c79123727a7258d515c450873dbdbbed
+Found cached dataset super_glue (/NS/llm-1/nobackup/afkhan/HF_CACHE/Misc/super_glue/copa/1.0.3/bb9675f958ebfee0d5d6dc5476fafe38c79123727a7258d515c450873dbdbbed)
+Loading Dataset info from /NS/llm-1/nobackup/afkhan/HF_CACHE/Misc/super_glue/copa/1.0.3/bb9675f958ebfee0d5d6dc5476fafe38c79123727a7258d515c450873dbdbbed
+[INFO|configuration_utils.py:653] 2023-12-12 09:20:25,158 >> loading configuration file config.json from cache at /NS/llm-1/nobackup/afkhan/HF_CACHE/Models/models--google--t5-xl-lm-adapt/snapshots/f9843a55f0bdc37c957ddba20be0be4870b0a994/config.json
+[INFO|configuration_utils.py:705] 2023-12-12 09:20:25,200 >> Model config T5Config {
+  "_name_or_path": "google/t5-xl-lm-adapt",
+  "architectures": [
+    "T5ForConditionalGeneration"
+  ],
+  "d_ff": 5120,
+  "d_kv": 64,
+  "d_model": 2048,
+  "decoder_start_token_id": 0,
+  "dense_act_fn": "gelu_new",
+  "dropout_rate": 0.1,
+  "eos_token_id": 1,
+  "feed_forward_proj": "gated-gelu",
+  "initializer_factor": 1.0,
+  "is_encoder_decoder": true,
+  "is_gated_act": true,
+  "layer_norm_epsilon": 1e-06,
+  "model_type": "t5",
+  "num_decoder_layers": 24,
+  "num_heads": 32,
+  "num_layers": 24,
+  "output_past": true,
+  "pad_token_id": 0,
+  "relative_attention_max_distance": 128,
+  "relative_attention_num_buckets": 32,
+  "tie_word_embeddings": false,
+  "torch_dtype": "float32",
+  "transformers_version": "4.23.1",
+  "use_cache": false,
+  "vocab_size": 32128
+}
+
+[INFO|tokenization_utils_base.py:1773] 2023-12-12 09:20:25,367 >> loading file spiece.model from cache at /NS/llm-1/nobackup/afkhan/HF_CACHE/Models/models--google--t5-xl-lm-adapt/snapshots/f9843a55f0bdc37c957ddba20be0be4870b0a994/spiece.model
+[INFO|tokenization_utils_base.py:1773] 2023-12-12 09:20:25,368 >> loading file tokenizer.json from cache at /NS/llm-1/nobackup/afkhan/HF_CACHE/Models/models--google--t5-xl-lm-adapt/snapshots/f9843a55f0bdc37c957ddba20be0be4870b0a994/tokenizer.json
+[INFO|tokenization_utils_base.py:1773] 2023-12-12 09:20:25,368 >> loading file added_tokens.json from cache at None
+[INFO|tokenization_utils_base.py:1773] 2023-12-12 09:20:25,368 >> loading file special_tokens_map.json from cache at /NS/llm-1/nobackup/afkhan/HF_CACHE/Models/models--google--t5-xl-lm-adapt/snapshots/f9843a55f0bdc37c957ddba20be0be4870b0a994/special_tokens_map.json
+[INFO|tokenization_utils_base.py:1773] 2023-12-12 09:20:25,368 >> loading file tokenizer_config.json from cache at /NS/llm-1/nobackup/afkhan/HF_CACHE/Models/models--google--t5-xl-lm-adapt/snapshots/f9843a55f0bdc37c957ddba20be0be4870b0a994/tokenizer_config.json
+[INFO|modeling_utils.py:2156] 2023-12-12 09:20:25,659 >> loading weights file pytorch_model.bin from cache at /NS/llm-1/nobackup/afkhan/HF_CACHE/Models/models--google--t5-xl-lm-adapt/snapshots/f9843a55f0bdc37c957ddba20be0be4870b0a994/pytorch_model.bin
+[INFO|modeling_utils.py:2606] 2023-12-12 09:20:52,127 >> All model checkpoint weights were used when initializing T5ForConditionalGeneration.
+
+[INFO|modeling_utils.py:2614] 2023-12-12 09:20:52,127 >> All the weights of T5ForConditionalGeneration were initialized from the model checkpoint at google/t5-xl-lm-adapt.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use T5ForConditionalGeneration for predictions without further training.
+[INFO|trainer.py:503] 2023-12-12 09:20:55,379 >> max_steps is given, it will override any value given in num_train_epochs
+[INFO|trainer.py:557] 2023-12-12 09:20:55,379 >> Using cuda_amp half precision backend
+  0%|          | 0/1000 [00:00<?, ?it/s]  0%|          | 1/1000 [00:01<26:15,  1.58s/it]  0%|          | 2/1000 [00:02<18:41,  1.12s/it]  0%|          | 3/1000 [00:03<16:29,  1.01it/s]  0%|          | 4/1000 [00:04<15:25,  1.08it/s]  0%|          | 5/1000 [00:04<14:46,  1.12it/s]  1%|          | 6/1000 [00:05<14:26,  1.15it/s]  1%|          | 7/1000 [00:06<14:13,  1.16it/s]  1%|          | 8/1000 [00:07<13:56,  1.19it/s]  1%|          | 9/1000 [00:08<13:56,  1.18it/s]  1%|          | 10/1000 [00:09<13:51,  1.19it/s]                                                   1%|          | 10/1000 [00:09<13:51,  1.19it/s][INFO|trainer.py:2656] 2023-12-12 09:21:04,445 >> Saving model checkpoint to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-10
+[INFO|configuration_utils.py:447] 2023-12-12 09:21:04,459 >> Configuration saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-10/config.json
+[INFO|modeling_utils.py:1632] 2023-12-12 09:22:09,008 >> The model is bigger than the maximum size per checkpoint (10GB) and is going to be split in 2 checkpoint shards. You can find where each parameters has been saved in the index located at outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-10/pytorch_model.bin.index.json.
+[INFO|tokenization_utils_base.py:2123] 2023-12-12 09:22:09,034 >> tokenizer config file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-10/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2130] 2023-12-12 09:22:09,054 >> Special tokens file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-10/special_tokens_map.json
+[INFO|tokenization_t5_fast.py:187] 2023-12-12 09:22:09,154 >> Copy vocab file to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-10/spiece.model
+  1%|          | 11/1000 [01:14<5:42:07, 20.76s/it]  1%|          | 12/1000 [01:15<4:02:24, 14.72s/it]  1%|▏         | 13/1000 [01:16<2:53:21, 10.54s/it]  1%|▏         | 14/1000 [01:17<2:05:28,  7.63s/it]  2%|▏         | 15/1000 [01:18<1:32:10,  5.61s/it]  2%|▏         | 16/1000 [01:19<1:08:53,  4.20s/it]  2%|▏         | 17/1000 [01:20<52:37,  3.21s/it]    2%|▏         | 18/1000 [01:21<41:18,  2.52s/it]  2%|▏         | 19/1000 [01:22<33:26,  2.05s/it]  2%|▏         | 20/1000 [01:23<27:53,  1.71s/it]                                                   2%|▏         | 20/1000 [01:23<27:53,  1.71s/it][INFO|trainer.py:2656] 2023-12-12 09:22:18,657 >> Saving model checkpoint to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-20
+[INFO|configuration_utils.py:447] 2023-12-12 09:22:18,671 >> Configuration saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-20/config.json
+[INFO|modeling_utils.py:1632] 2023-12-12 09:23:21,009 >> The model is bigger than the maximum size per checkpoint (10GB) and is going to be split in 2 checkpoint shards. You can find where each parameters has been saved in the index located at outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-20/pytorch_model.bin.index.json.
+[INFO|tokenization_utils_base.py:2123] 2023-12-12 09:23:21,040 >> tokenizer config file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-20/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2130] 2023-12-12 09:23:21,059 >> Special tokens file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-20/special_tokens_map.json
+[INFO|tokenization_t5_fast.py:187] 2023-12-12 09:23:21,152 >> Copy vocab file to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-20/spiece.model
+[INFO|trainer.py:2734] 2023-12-12 09:23:21,410 >> Deleting older checkpoint [outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-10] due to args.save_total_limit
+  2%|▏         | 21/1000 [02:27<5:34:08, 20.48s/it]  2%|▏         | 22/1000 [02:28<3:58:04, 14.61s/it]  2%|▏         | 23/1000 [02:29<2:50:55, 10.50s/it]  2%|▏         | 24/1000 [02:30<2:04:00,  7.62s/it]  2%|▎         | 25/1000 [02:31<1:31:08,  5.61s/it]  3%|▎         | 26/1000 [02:32<1:08:12,  4.20s/it]  3%|▎         | 27/1000 [02:32<52:06,  3.21s/it]    3%|▎         | 28/1000 [02:33<40:49,  2.52s/it]  3%|▎         | 29/1000 [02:34<33:00,  2.04s/it]  3%|▎         | 30/1000 [02:35<27:29,  1.70s/it]                                                   3%|▎         | 30/1000 [02:35<27:29,  1.70s/it][INFO|trainer.py:2656] 2023-12-12 09:23:31,106 >> Saving model checkpoint to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-30
+[INFO|configuration_utils.py:447] 2023-12-12 09:23:31,122 >> Configuration saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-30/config.json
+[INFO|modeling_utils.py:1632] 2023-12-12 09:25:22,708 >> The model is bigger than the maximum size per checkpoint (10GB) and is going to be split in 2 checkpoint shards. You can find where each parameters has been saved in the index located at outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-30/pytorch_model.bin.index.json.
+[INFO|tokenization_utils_base.py:2123] 2023-12-12 09:25:22,844 >> tokenizer config file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-30/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2130] 2023-12-12 09:25:22,921 >> Special tokens file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-30/special_tokens_map.json
+[INFO|tokenization_t5_fast.py:187] 2023-12-12 09:25:23,408 >> Copy vocab file to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-30/spiece.model
+[INFO|trainer.py:2734] 2023-12-12 09:25:24,047 >> Deleting older checkpoint [outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-20] due to args.save_total_limit
+  3%|▎         | 31/1000 [04:30<9:33:49, 35.53s/it]  3%|▎         | 32/1000 [04:31<6:45:42, 25.15s/it]  3%|▎         | 33/1000 [04:31<4:48:09, 17.88s/it]  3%|▎         | 34/1000 [04:32<3:25:54, 12.79s/it]  4%|▎         | 35/1000 [04:33<2:28:25,  9.23s/it]  4%|▎         | 36/1000 [04:34<1:48:16,  6.74s/it]  4%|▎         | 37/1000 [04:35<1:20:11,  5.00s/it]  4%|▍         | 38/1000 [04:36<1:00:33,  3.78s/it]  4%|▍         | 39/1000 [04:37<46:48,  2.92s/it]    4%|▍         | 40/1000 [04:38<37:11,  2.32s/it]                                                   4%|▍         | 40/1000 [04:38<37:11,  2.32s/it][INFO|trainer.py:2656] 2023-12-12 09:25:33,895 >> Saving model checkpoint to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-40
+[INFO|configuration_utils.py:447] 2023-12-12 09:25:33,910 >> Configuration saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-40/config.json
+[INFO|modeling_utils.py:1632] 2023-12-12 09:26:38,367 >> The model is bigger than the maximum size per checkpoint (10GB) and is going to be split in 2 checkpoint shards. You can find where each parameters has been saved in the index located at outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-40/pytorch_model.bin.index.json.
+[INFO|tokenization_utils_base.py:2123] 2023-12-12 09:26:38,399 >> tokenizer config file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-40/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2130] 2023-12-12 09:26:38,417 >> Special tokens file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-40/special_tokens_map.json
+[INFO|tokenization_t5_fast.py:187] 2023-12-12 09:26:38,520 >> Copy vocab file to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-40/spiece.model
+[INFO|trainer.py:2734] 2023-12-12 09:26:38,789 >> Deleting older checkpoint [outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-30] due to args.save_total_limit
+  4%|▍         | 41/1000 [05:44<5:44:20, 21.54s/it]  4%|▍         | 42/1000 [05:45<4:05:20, 15.37s/it]  4%|▍         | 43/1000 [05:46<2:55:56, 11.03s/it]  4%|▍         | 44/1000 [05:47<2:07:23,  8.00s/it]  4%|▍         | 45/1000 [05:48<1:33:29,  5.87s/it]  5%|▍         | 46/1000 [05:49<1:09:46,  4.39s/it]  5%|▍         | 47/1000 [05:50<53:11,  3.35s/it]    5%|▍         | 48/1000 [05:51<41:33,  2.62s/it]  5%|▍         | 49/1000 [05:52<33:25,  2.11s/it]  5%|▌         | 50/1000 [05:53<27:45,  1.75s/it]                                                   5%|▌         | 50/1000 [05:53<27:45,  1.75s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][A                                                 
+                                     [A  5%|▌         | 50/1000 [05:53<27:45,  1.75s/it]
+100%|██████████| 1/1 [00:00<00:00, 27.11it/s][A
+                                             [A[INFO|trainer.py:2656] 2023-12-12 09:26:48,769 >> Saving model checkpoint to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-50
+[INFO|configuration_utils.py:447] 2023-12-12 09:26:48,785 >> Configuration saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-50/config.json
+[INFO|modeling_utils.py:1632] 2023-12-12 09:28:00,398 >> The model is bigger than the maximum size per checkpoint (10GB) and is going to be split in 2 checkpoint shards. You can find where each parameters has been saved in the index located at outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-50/pytorch_model.bin.index.json.
+[INFO|tokenization_utils_base.py:2123] 2023-12-12 09:28:00,419 >> tokenizer config file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-50/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2130] 2023-12-12 09:28:00,432 >> Special tokens file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-50/special_tokens_map.json
+[INFO|tokenization_t5_fast.py:187] 2023-12-12 09:28:00,522 >> Copy vocab file to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-50/spiece.model
+[INFO|trainer.py:2734] 2023-12-12 09:28:00,780 >> Deleting older checkpoint [outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-40] due to args.save_total_limit
+  5%|▌         | 51/1000 [07:06<6:08:58, 23.33s/it]  5%|▌         | 52/1000 [07:07<4:22:23, 16.61s/it]  5%|▌         | 53/1000 [07:08<3:07:52, 11.90s/it]  5%|▌         | 54/1000 [07:09<2:15:42,  8.61s/it]  6%|▌         | 55/1000 [07:10<1:39:16,  6.30s/it]  6%|▌         | 56/1000 [07:11<1:13:47,  4.69s/it]  6%|▌         | 57/1000 [07:12<55:57,  3.56s/it]    6%|▌         | 58/1000 [07:13<43:28,  2.77s/it]  6%|▌         | 59/1000 [07:14<34:50,  2.22s/it]  6%|▌         | 60/1000 [07:15<28:46,  1.84s/it]                                                   6%|▌         | 60/1000 [07:15<28:46,  1.84s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][A                                                 
+                                     [A  6%|▌         | 60/1000 [07:15<28:46,  1.84s/it]
+100%|██████████| 1/1 [00:00<00:00, 29.53it/s][A
+                                             [A[INFO|trainer.py:2656] 2023-12-12 09:28:10,803 >> Saving model checkpoint to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-60
+[INFO|configuration_utils.py:447] 2023-12-12 09:28:10,820 >> Configuration saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-60/config.json
+[INFO|modeling_utils.py:1632] 2023-12-12 09:29:24,695 >> The model is bigger than the maximum size per checkpoint (10GB) and is going to be split in 2 checkpoint shards. You can find where each parameters has been saved in the index located at outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-60/pytorch_model.bin.index.json.
+[INFO|tokenization_utils_base.py:2123] 2023-12-12 09:29:24,872 >> tokenizer config file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-60/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2130] 2023-12-12 09:29:24,986 >> Special tokens file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-60/special_tokens_map.json
+[INFO|tokenization_t5_fast.py:187] 2023-12-12 09:29:25,497 >> Copy vocab file to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-60/spiece.model
+  6%|▌         | 61/1000 [08:32<6:23:39, 24.52s/it]  6%|▌         | 62/1000 [08:33<4:34:10, 17.54s/it]  6%|▋         | 63/1000 [08:35<3:18:07, 12.69s/it]  6%|▋         | 64/1000 [08:36<2:23:16,  9.18s/it]  6%|▋         | 65/1000 [08:37<1:44:32,  6.71s/it]  7%|▋         | 66/1000 [08:38<1:17:29,  4.98s/it]  7%|▋         | 67/1000 [08:39<58:29,  3.76s/it]    7%|▋         | 68/1000 [08:39<45:12,  2.91s/it]  7%|▋         | 69/1000 [08:40<35:53,  2.31s/it]  7%|▋         | 70/1000 [08:42<31:22,  2.02s/it]                                                   7%|▋         | 70/1000 [08:42<31:22,  2.02s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][A                                                 
+                                     [A  7%|▋         | 70/1000 [08:43<31:22,  2.02s/it]
+100%|██████████| 1/1 [00:00<00:00,  1.87it/s][A
+                                             [A[INFO|trainer.py:2656] 2023-12-12 09:29:38,542 >> Saving model checkpoint to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-70
+[INFO|configuration_utils.py:447] 2023-12-12 09:29:38,836 >> Configuration saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-70/config.json
+[INFO|modeling_utils.py:1632] 2023-12-12 09:31:17,257 >> The model is bigger than the maximum size per checkpoint (10GB) and is going to be split in 2 checkpoint shards. You can find where each parameters has been saved in the index located at outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-70/pytorch_model.bin.index.json.
+[INFO|tokenization_utils_base.py:2123] 2023-12-12 09:31:17,271 >> tokenizer config file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-70/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2130] 2023-12-12 09:31:17,279 >> Special tokens file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-70/special_tokens_map.json
+[INFO|tokenization_t5_fast.py:187] 2023-12-12 09:31:17,355 >> Copy vocab file to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-70/spiece.model
+[INFO|trainer.py:2734] 2023-12-12 09:31:17,746 >> Deleting older checkpoint [outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-60] due to args.save_total_limit
+  7%|▋         | 71/1000 [10:24<8:15:23, 32.00s/it]  7%|▋         | 72/1000 [10:25<5:52:43, 22.81s/it]  7%|▋         | 73/1000 [10:26<4:12:46, 16.36s/it]  7%|▋         | 74/1000 [10:28<3:02:54, 11.85s/it]  8%|▊         | 75/1000 [10:29<2:13:46,  8.68s/it]  8%|▊         | 76/1000 [10:30<1:39:45,  6.48s/it]  8%|▊         | 77/1000 [10:32<1:16:06,  4.95s/it]  8%|▊         | 78/1000 [10:33<59:19,  3.86s/it]    8%|▊         | 79/1000 [10:34<47:27,  3.09s/it]  8%|▊         | 80/1000 [10:36<39:19,  2.56s/it]                                                   8%|▊         | 80/1000 [10:36<39:19,  2.56s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][A                                                 
+                                     [A  8%|▊         | 80/1000 [10:36<39:19,  2.56s/it]
+100%|██████████| 1/1 [00:00<00:00, 27.24it/s][A
+                                             [A[INFO|trainer.py:2656] 2023-12-12 09:31:31,855 >> Saving model checkpoint to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-80
+[INFO|configuration_utils.py:447] 2023-12-12 09:31:31,871 >> Configuration saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-80/config.json
+[INFO|modeling_utils.py:1632] 2023-12-12 09:32:38,263 >> The model is bigger than the maximum size per checkpoint (10GB) and is going to be split in 2 checkpoint shards. You can find where each parameters has been saved in the index located at outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-80/pytorch_model.bin.index.json.
+[INFO|tokenization_utils_base.py:2123] 2023-12-12 09:32:38,280 >> tokenizer config file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-80/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2130] 2023-12-12 09:32:38,291 >> Special tokens file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-80/special_tokens_map.json
+[INFO|tokenization_t5_fast.py:187] 2023-12-12 09:32:38,382 >> Copy vocab file to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-80/spiece.model
+[INFO|trainer.py:2734] 2023-12-12 09:32:38,636 >> Deleting older checkpoint [outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-50] due to args.save_total_limit
+[INFO|trainer.py:2734] 2023-12-12 09:32:39,183 >> Deleting older checkpoint [outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-70] due to args.save_total_limit
+  8%|▊         | 81/1000 [11:45<5:46:47, 22.64s/it]  8%|▊         | 82/1000 [11:46<4:08:40, 16.25s/it]  8%|▊         | 83/1000 [11:48<3:00:07, 11.79s/it]  8%|▊         | 84/1000 [11:49<2:12:32,  8.68s/it]  8%|▊         | 85/1000 [11:51<1:38:56,  6.49s/it]  9%|▊         | 86/1000 [11:52<1:15:15,  4.94s/it]  9%|▊         | 87/1000 [11:53<59:24,  3.90s/it]    9%|▉         | 88/1000 [11:55<47:34,  3.13s/it]  9%|▉         | 89/1000 [11:56<39:19,  2.59s/it]  9%|▉         | 90/1000 [11:57<33:21,  2.20s/it]                                                   9%|▉         | 90/1000 [11:57<33:21,  2.20s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][A                                                 
+                                     [A  9%|▉         | 90/1000 [11:58<33:21,  2.20s/it]
+100%|██████████| 1/1 [00:00<00:00, 25.71it/s][A
+                                             [A[INFO|trainer.py:2656] 2023-12-12 09:32:53,633 >> Saving model checkpoint to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-90
+[INFO|configuration_utils.py:447] 2023-12-12 09:32:53,649 >> Configuration saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-90/config.json
+[INFO|modeling_utils.py:1632] 2023-12-12 09:34:06,628 >> The model is bigger than the maximum size per checkpoint (10GB) and is going to be split in 2 checkpoint shards. You can find where each parameters has been saved in the index located at outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-90/pytorch_model.bin.index.json.
+[INFO|tokenization_utils_base.py:2123] 2023-12-12 09:34:06,652 >> tokenizer config file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-90/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2130] 2023-12-12 09:34:06,666 >> Special tokens file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-90/special_tokens_map.json
+[INFO|tokenization_t5_fast.py:187] 2023-12-12 09:34:06,766 >> Copy vocab file to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-90/spiece.model
+  9%|▉         | 91/1000 [13:12<6:04:24, 24.05s/it]  9%|▉         | 92/1000 [13:14<4:20:47, 17.23s/it]  9%|▉         | 93/1000 [13:15<3:08:07, 12.44s/it]  9%|▉         | 94/1000 [13:16<2:18:02,  9.14s/it] 10%|▉         | 95/1000 [13:18<1:42:57,  6.83s/it] 10%|▉         | 96/1000 [13:19<1:18:19,  5.20s/it] 10%|▉         | 97/1000 [13:21<1:01:22,  4.08s/it] 10%|▉         | 98/1000 [13:22<48:52,  3.25s/it]   10%|▉         | 99/1000 [13:23<40:18,  2.68s/it] 10%|█         | 100/1000 [13:25<34:01,  2.27s/it]                                                   10%|█         | 100/1000 [13:25<34:01,  2.27s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][A                                                  
+                                     [A 10%|█         | 100/1000 [13:25<34:01,  2.27s/it]
+100%|██████████| 1/1 [00:00<00:00, 26.82it/s][A
+                                             [A[INFO|trainer.py:2656] 2023-12-12 09:34:20,956 >> Saving model checkpoint to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-100
+[INFO|configuration_utils.py:447] 2023-12-12 09:34:20,972 >> Configuration saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-100/config.json
+[INFO|modeling_utils.py:1632] 2023-12-12 09:35:56,863 >> The model is bigger than the maximum size per checkpoint (10GB) and is going to be split in 2 checkpoint shards. You can find where each parameters has been saved in the index located at outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-100/pytorch_model.bin.index.json.
+[INFO|tokenization_utils_base.py:2123] 2023-12-12 09:35:56,962 >> tokenizer config file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-100/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2130] 2023-12-12 09:35:57,024 >> Special tokens file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-100/special_tokens_map.json
+[INFO|tokenization_t5_fast.py:187] 2023-12-12 09:35:57,331 >> Copy vocab file to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-100/spiece.model
+[INFO|trainer.py:2734] 2023-12-12 09:35:57,997 >> Deleting older checkpoint [outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-90] due to args.save_total_limit
+ 10%|█         | 101/1000 [15:04<7:51:04, 31.44s/it] 10%|█         | 102/1000 [15:06<5:35:20, 22.41s/it] 10%|█         | 103/1000 [15:07<4:00:32, 16.09s/it] 10%|█         | 104/1000 [15:08<2:54:24, 11.68s/it] 10%|█         | 105/1000 [15:10<2:08:26,  8.61s/it] 11%|█         | 106/1000 [15:11<1:36:19,  6.46s/it] 11%|█         | 107/1000 [15:13<1:13:22,  4.93s/it] 11%|█         | 108/1000 [15:14<57:20,  3.86s/it]   11%|█         | 109/1000 [15:15<45:57,  3.10s/it] 11%|█         | 110/1000 [15:17<38:09,  2.57s/it]                                                   11%|█         | 110/1000 [15:17<38:09,  2.57s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][A                                                  
+                                     [A 11%|█         | 110/1000 [15:17<38:09,  2.57s/it]
+100%|██████████| 1/1 [00:00<00:00,  2.89it/s][A
+                                             [A[INFO|trainer.py:2656] 2023-12-12 09:36:13,173 >> Saving model checkpoint to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-110
+[INFO|configuration_utils.py:447] 2023-12-12 09:36:13,374 >> Configuration saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-110/config.json
+[INFO|modeling_utils.py:1632] 2023-12-12 09:37:52,556 >> The model is bigger than the maximum size per checkpoint (10GB) and is going to be split in 2 checkpoint shards. You can find where each parameters has been saved in the index located at outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-110/pytorch_model.bin.index.json.
+[INFO|tokenization_utils_base.py:2123] 2023-12-12 09:37:52,609 >> tokenizer config file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-110/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2130] 2023-12-12 09:37:52,638 >> Special tokens file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-110/special_tokens_map.json
+[INFO|tokenization_t5_fast.py:187] 2023-12-12 09:37:52,744 >> Copy vocab file to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-110/spiece.model
+[INFO|trainer.py:2734] 2023-12-12 09:37:53,015 >> Deleting older checkpoint [outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-100] due to args.save_total_limit
+ 11%|█         | 111/1000 [16:59<8:01:56, 32.53s/it] 11%|█         | 112/1000 [17:00<5:43:03, 23.18s/it] 11%|█▏        | 113/1000 [17:02<4:05:49, 16.63s/it] 11%|█▏        | 114/1000 [17:03<2:57:57, 12.05s/it] 12%|█▏        | 115/1000 [17:04<2:10:32,  8.85s/it] 12%|█▏        | 116/1000 [17:06<1:37:05,  6.59s/it] 12%|█▏        | 117/1000 [17:07<1:13:49,  5.02s/it] 12%|█▏        | 118/1000 [17:08<57:30,  3.91s/it]   12%|█▏        | 119/1000 [17:10<46:24,  3.16s/it] 12%|█▏        | 120/1000 [17:11<38:42,  2.64s/it]                                                   12%|█▏        | 120/1000 [17:11<38:42,  2.64s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][A                                                  
+                                     [A 12%|█▏        | 120/1000 [17:12<38:42,  2.64s/it]
+100%|██████████| 1/1 [00:00<00:00, 23.53it/s][A
+                                             [A[INFO|trainer.py:2656] 2023-12-12 09:38:07,532 >> Saving model checkpoint to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-120
+[INFO|configuration_utils.py:447] 2023-12-12 09:38:07,548 >> Configuration saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-120/config.json
+[INFO|modeling_utils.py:1632] 2023-12-12 09:39:11,065 >> The model is bigger than the maximum size per checkpoint (10GB) and is going to be split in 2 checkpoint shards. You can find where each parameters has been saved in the index located at outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-120/pytorch_model.bin.index.json.
+[INFO|tokenization_utils_base.py:2123] 2023-12-12 09:39:11,086 >> tokenizer config file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-120/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2130] 2023-12-12 09:39:11,096 >> Special tokens file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-120/special_tokens_map.json
+[INFO|tokenization_t5_fast.py:187] 2023-12-12 09:39:11,188 >> Copy vocab file to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-120/spiece.model
+[INFO|trainer.py:2734] 2023-12-12 09:39:11,441 >> Deleting older checkpoint [outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-110] due to args.save_total_limit
+ 12%|█▏        | 121/1000 [18:17<5:17:36, 21.68s/it] 12%|█▏        | 122/1000 [18:19<3:48:17, 15.60s/it] 12%|█▏        | 123/1000 [18:20<2:45:39, 11.33s/it] 12%|█▏        | 124/1000 [18:22<2:01:29,  8.32s/it] 12%|█▎        | 125/1000 [18:23<1:31:00,  6.24s/it] 13%|█▎        | 126/1000 [18:24<1:09:30,  4.77s/it] 13%|█▎        | 127/1000 [18:26<54:51,  3.77s/it]   13%|█▎        | 128/1000 [18:27<44:08,  3.04s/it] 13%|█▎        | 129/1000 [18:28<37:11,  2.56s/it] 13%|█▎        | 130/1000 [18:30<31:35,  2.18s/it]                                                   13%|█▎        | 130/1000 [18:30<31:35,  2.18s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][A                                                  
+                                     [A 13%|█▎        | 130/1000 [18:30<31:35,  2.18s/it]
+100%|██████████| 1/1 [00:00<00:00, 28.77it/s][A
+                                             [A[INFO|trainer.py:2656] 2023-12-12 09:39:25,929 >> Saving model checkpoint to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-130
+[INFO|configuration_utils.py:447] 2023-12-12 09:39:25,944 >> Configuration saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-130/config.json
+[INFO|modeling_utils.py:1632] 2023-12-12 09:41:58,229 >> The model is bigger than the maximum size per checkpoint (10GB) and is going to be split in 2 checkpoint shards. You can find where each parameters has been saved in the index located at outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-130/pytorch_model.bin.index.json.
+[INFO|tokenization_utils_base.py:2123] 2023-12-12 09:41:58,336 >> tokenizer config file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-130/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2130] 2023-12-12 09:41:58,406 >> Special tokens file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-130/special_tokens_map.json
+[INFO|tokenization_t5_fast.py:187] 2023-12-12 09:41:58,846 >> Copy vocab file to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-130/spiece.model
+[INFO|trainer.py:2734] 2023-12-12 09:42:00,673 >> Deleting older checkpoint [outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-120] due to args.save_total_limit
+ 13%|█▎        | 131/1000 [21:07<11:47:00, 48.82s/it] 13%|█▎        | 132/1000 [21:09<8:20:00, 34.56s/it]  13%|█▎        | 133/1000 [21:10<5:55:22, 24.59s/it] 13%|█▎        | 134/1000 [21:11<4:14:29, 17.63s/it] 14%|█▎        | 135/1000 [21:13<3:04:06, 12.77s/it] 14%|█▎        | 136/1000 [21:14<2:14:29,  9.34s/it] 14%|█▎        | 137/1000 [21:15<1:39:45,  6.94s/it] 14%|█▍        | 138/1000 [21:17<1:15:48,  5.28s/it] 14%|█▍        | 139/1000 [21:18<58:36,  4.08s/it]   14%|█▍        | 140/1000 [21:19<46:34,  3.25s/it]                                                   14%|█▍        | 140/1000 [21:20<46:34,  3.25s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][A                                                  
+                                     [A 14%|█▍        | 140/1000 [21:20<46:34,  3.25s/it]
+100%|██████████| 1/1 [00:00<00:00,  2.11it/s][A
+                                             [A[INFO|trainer.py:2656] 2023-12-12 09:42:16,201 >> Saving model checkpoint to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-140
+[INFO|configuration_utils.py:447] 2023-12-12 09:42:16,353 >> Configuration saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-140/config.json
+[INFO|modeling_utils.py:1632] 2023-12-12 09:43:31,294 >> The model is bigger than the maximum size per checkpoint (10GB) and is going to be split in 2 checkpoint shards. You can find where each parameters has been saved in the index located at outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-140/pytorch_model.bin.index.json.
+[INFO|tokenization_utils_base.py:2123] 2023-12-12 09:43:31,316 >> tokenizer config file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-140/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2130] 2023-12-12 09:43:31,330 >> Special tokens file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-140/special_tokens_map.json
+[INFO|tokenization_t5_fast.py:187] 2023-12-12 09:43:31,422 >> Copy vocab file to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-140/spiece.model
+[INFO|trainer.py:2734] 2023-12-12 09:43:31,682 >> Deleting older checkpoint [outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-130] due to args.save_total_limit
+ 14%|█▍        | 141/1000 [22:38<6:08:33, 25.74s/it] 14%|█▍        | 142/1000 [22:39<4:23:29, 18.43s/it] 14%|█▍        | 143/1000 [22:40<3:10:01, 13.30s/it] 14%|█▍        | 144/1000 [22:42<2:18:45,  9.73s/it] 14%|█▍        | 145/1000 [22:43<1:42:57,  7.22s/it] 15%|█▍        | 146/1000 [22:45<1:17:50,  5.47s/it] 15%|█▍        | 147/1000 [22:46<59:37,  4.19s/it]   15%|█▍        | 148/1000 [22:47<47:17,  3.33s/it] 15%|█▍        | 149/1000 [22:48<38:49,  2.74s/it] 15%|█▌        | 150/1000 [22:50<32:41,  2.31s/it]                                                   15%|█▌        | 150/1000 [22:50<32:41,  2.31s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][A                                                  
+                                     [A 15%|█▌        | 150/1000 [22:50<32:41,  2.31s/it]
+100%|██████████| 1/1 [00:00<00:00, 28.84it/s][A
+                                             [A[INFO|trainer.py:2656] 2023-12-12 09:43:45,915 >> Saving model checkpoint to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-150
+[INFO|configuration_utils.py:447] 2023-12-12 09:43:45,928 >> Configuration saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-150/config.json
+[INFO|modeling_utils.py:1632] 2023-12-12 09:45:07,743 >> The model is bigger than the maximum size per checkpoint (10GB) and is going to be split in 2 checkpoint shards. You can find where each parameters has been saved in the index located at outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-150/pytorch_model.bin.index.json.
+[INFO|tokenization_utils_base.py:2123] 2023-12-12 09:45:07,756 >> tokenizer config file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-150/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2130] 2023-12-12 09:45:07,763 >> Special tokens file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-150/special_tokens_map.json
+[INFO|tokenization_t5_fast.py:187] 2023-12-12 09:45:07,854 >> Copy vocab file to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-150/spiece.model
+[INFO|trainer.py:2734] 2023-12-12 09:45:08,199 >> Deleting older checkpoint [outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-140] due to args.save_total_limit
+ 15%|█▌        | 151/1000 [24:14<6:21:26, 26.96s/it] 15%|█▌        | 152/1000 [24:16<4:32:35, 19.29s/it] 15%|█▌        | 153/1000 [24:17<3:16:10, 13.90s/it] 15%|█▌        | 154/1000 [24:18<2:22:50, 10.13s/it] 16%|█▌        | 155/1000 [24:20<1:45:24,  7.48s/it] 16%|█▌        | 156/1000 [24:21<1:19:45,  5.67s/it] 16%|█▌        | 157/1000 [24:22<1:01:40,  4.39s/it] 16%|█▌        | 158/1000 [24:24<48:19,  3.44s/it]   16%|█▌        | 159/1000 [24:25<39:33,  2.82s/it] 16%|█▌        | 160/1000 [24:26<33:19,  2.38s/it]                                                   16%|█▌        | 160/1000 [24:26<33:19,  2.38s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][A                                                  
+                                     [A 16%|█▌        | 160/1000 [24:27<33:19,  2.38s/it]
+100%|██████████| 1/1 [00:00<00:00, 27.62it/s][A
+                                             [A[INFO|trainer.py:2656] 2023-12-12 09:45:22,601 >> Saving model checkpoint to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-160
+[INFO|configuration_utils.py:447] 2023-12-12 09:45:22,614 >> Configuration saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-160/config.json
+[INFO|modeling_utils.py:1632] 2023-12-12 09:47:25,222 >> The model is bigger than the maximum size per checkpoint (10GB) and is going to be split in 2 checkpoint shards. You can find where each parameters has been saved in the index located at outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-160/pytorch_model.bin.index.json.
+[INFO|tokenization_utils_base.py:2123] 2023-12-12 09:47:25,235 >> tokenizer config file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-160/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2130] 2023-12-12 09:47:25,242 >> Special tokens file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-160/special_tokens_map.json
+[INFO|tokenization_t5_fast.py:187] 2023-12-12 09:47:25,328 >> Copy vocab file to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-160/spiece.model
+[INFO|trainer.py:2734] 2023-12-12 09:47:25,584 >> Deleting older checkpoint [outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-150] due to args.save_total_limit
+ 16%|█▌        | 161/1000 [26:32<9:08:09, 39.20s/it] 16%|█▌        | 162/1000 [26:33<6:28:49, 27.84s/it] 16%|█▋        | 163/1000 [26:34<4:37:46, 19.91s/it] 16%|█▋        | 164/1000 [26:36<3:19:57, 14.35s/it] 16%|█▋        | 165/1000 [26:37<2:25:17, 10.44s/it] 17%|█▋        | 166/1000 [26:38<1:46:55,  7.69s/it] 17%|█▋        | 167/1000 [26:40<1:20:19,  5.79s/it] 17%|█▋        | 168/1000 [26:41<1:01:37,  4.44s/it] 17%|█▋        | 169/1000 [26:42<48:31,  3.50s/it]   17%|█▋        | 170/1000 [26:44<39:35,  2.86s/it]                                                   17%|█▋        | 170/1000 [26:44<39:35,  2.86s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][A                                                  
+                                     [A 17%|█▋        | 170/1000 [26:44<39:35,  2.86s/it]
+100%|██████████| 1/1 [00:00<00:00, 26.29it/s][A
+                                             [A[INFO|trainer.py:2656] 2023-12-12 09:47:39,744 >> Saving model checkpoint to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-170
+[INFO|configuration_utils.py:447] 2023-12-12 09:47:39,761 >> Configuration saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-170/config.json
+[INFO|modeling_utils.py:1632] 2023-12-12 09:49:12,143 >> The model is bigger than the maximum size per checkpoint (10GB) and is going to be split in 2 checkpoint shards. You can find where each parameters has been saved in the index located at outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-170/pytorch_model.bin.index.json.
+[INFO|tokenization_utils_base.py:2123] 2023-12-12 09:49:12,246 >> tokenizer config file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-170/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2130] 2023-12-12 09:49:12,308 >> Special tokens file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-170/special_tokens_map.json
+[INFO|tokenization_t5_fast.py:187] 2023-12-12 09:49:12,674 >> Copy vocab file to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-170/spiece.model
+[INFO|trainer.py:2734] 2023-12-12 09:49:13,312 >> Deleting older checkpoint [outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-160] due to args.save_total_limit
+ 17%|█▋        | 171/1000 [28:19<7:04:35, 30.73s/it] 17%|█▋        | 172/1000 [28:20<5:00:13, 21.76s/it] 17%|█▋        | 173/1000 [28:21<3:33:14, 15.47s/it] 17%|█▋        | 174/1000 [28:22<2:32:29, 11.08s/it] 18%|█▊        | 175/1000 [28:23<1:50:01,  8.00s/it] 18%|█▊        | 176/1000 [28:23<1:20:40,  5.87s/it] 18%|█▊        | 177/1000 [28:24<59:43,  4.35s/it]   18%|█▊        | 178/1000 [28:25<45:02,  3.29s/it] 18%|█▊        | 179/1000 [28:26<34:49,  2.55s/it] 18%|█▊        | 180/1000 [28:27<27:38,  2.02s/it]                                                   18%|█▊        | 180/1000 [28:27<27:38,  2.02s/it]
+  0%|          | 0/1 [00:00<?, ?it/s][A                                                  
+                                     [A 18%|█▊        | 180/1000 [28:27<27:38,  2.02s/it]
+100%|██████████| 1/1 [00:00<00:00,  3.87it/s][A
+                                             [A[INFO|trainer.py:2656] 2023-12-12 09:49:23,049 >> Saving model checkpoint to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-180
+[INFO|configuration_utils.py:447] 2023-12-12 09:49:23,145 >> Configuration saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-180/config.json
+[INFO|modeling_utils.py:1632] 2023-12-12 09:51:08,360 >> The model is bigger than the maximum size per checkpoint (10GB) and is going to be split in 2 checkpoint shards. You can find where each parameters has been saved in the index located at outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-180/pytorch_model.bin.index.json.
+[INFO|tokenization_utils_base.py:2123] 2023-12-12 09:51:08,498 >> tokenizer config file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-180/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2130] 2023-12-12 09:51:08,580 >> Special tokens file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-180/special_tokens_map.json
+[INFO|tokenization_t5_fast.py:187] 2023-12-12 09:51:08,983 >> Copy vocab file to outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-180/spiece.model
+[INFO|trainer.py:2734] 2023-12-12 09:51:09,766 >> Deleting older checkpoint [outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-170] due to args.save_total_limit
+[INFO|trainer.py:1946] 2023-12-12 09:51:10,756 >> Loading best model from outputs/T5_LM_3B/target_only/42/copa/1e-4/checkpoint-80 (score: 0.625).
+                                                   18%|█▊        | 180/1000 [30:22<27:38,  2.02s/it] 18%|█▊        | 180/1000 [30:22<2:18:22, 10.13s/it]
+[INFO|trainer.py:2656] 2023-12-12 09:51:17,955 >> Saving model checkpoint to outputs/T5_LM_3B/target_only/42/copa/1e-4
+[INFO|configuration_utils.py:447] 2023-12-12 09:51:18,169 >> Configuration saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/config.json
+[INFO|modeling_utils.py:1632] 2023-12-12 09:52:27,905 >> The model is bigger than the maximum size per checkpoint (10GB) and is going to be split in 2 checkpoint shards. You can find where each parameters has been saved in the index located at outputs/T5_LM_3B/target_only/42/copa/1e-4/pytorch_model.bin.index.json.
+[INFO|tokenization_utils_base.py:2123] 2023-12-12 09:52:27,934 >> tokenizer config file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/tokenizer_config.json
+[INFO|tokenization_utils_base.py:2130] 2023-12-12 09:52:27,949 >> Special tokens file saved in outputs/T5_LM_3B/target_only/42/copa/1e-4/special_tokens_map.json
+[INFO|tokenization_t5_fast.py:187] 2023-12-12 09:52:28,055 >> Copy vocab file to outputs/T5_LM_3B/target_only/42/copa/1e-4/spiece.model
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 17.38it/s]
