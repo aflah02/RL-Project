@@ -1,0 +1,3941 @@
+{
+  "best_metric": 0.8125,
+  "best_model_checkpoint": "src/../outputs/T5_LM_3B/T0Mixture/explore_only/42/copa/4/5/0.0001/checkpoint-1200",
+  "epoch": 0.22,
+  "global_step": 2200,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.0,
+      "learning_rate": 1e-05,
+      "loss": 3.5751,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 20,
+        "ag_news": 27,
+        "amazon_polarity": 28,
+        "cnn_dailymail/3.0.0": 27,
+        "common_gen": 18,
+        "copa": 120,
+        "cos_e/v1.11": 21,
+        "glue/mrpc": 30,
+        "kilt_tasks/hotpotqa": 29
+      },
+      "step": 10
+    },
+    {
+      "epoch": 0.0,
+      "learning_rate": 2e-05,
+      "loss": 3.0537,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 41,
+        "ag_news": 57,
+        "amazon_polarity": 48,
+        "cnn_dailymail/3.0.0": 49,
+        "common_gen": 43,
+        "copa": 236,
+        "cos_e/v1.11": 49,
+        "glue/mrpc": 60,
+        "kilt_tasks/hotpotqa": 57
+      },
+      "step": 20
+    },
+    {
+      "epoch": 0.0,
+      "learning_rate": 3e-05,
+      "loss": 2.7077,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 70,
+        "ag_news": 91,
+        "amazon_polarity": 73,
+        "cnn_dailymail/3.0.0": 76,
+        "common_gen": 64,
+        "copa": 347,
+        "cos_e/v1.11": 76,
+        "glue/mrpc": 85,
+        "kilt_tasks/hotpotqa": 78
+      },
+      "step": 30
+    },
+    {
+      "epoch": 0.0,
+      "learning_rate": 4e-05,
+      "loss": 1.9241,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 97,
+        "ag_news": 114,
+        "amazon_polarity": 101,
+        "cnn_dailymail/3.0.0": 102,
+        "common_gen": 88,
+        "copa": 471,
+        "cos_e/v1.11": 105,
+        "glue/mrpc": 97,
+        "kilt_tasks/hotpotqa": 105
+      },
+      "step": 40
+    },
+    {
+      "epoch": 0.01,
+      "learning_rate": 5e-05,
+      "loss": 1.9967,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 121,
+        "ag_news": 133,
+        "amazon_polarity": 129,
+        "cnn_dailymail/3.0.0": 130,
+        "common_gen": 115,
+        "copa": 592,
+        "cos_e/v1.11": 128,
+        "glue/mrpc": 121,
+        "kilt_tasks/hotpotqa": 131
+      },
+      "step": 50
+    },
+    {
+      "epoch": 0.01,
+      "learning_rate": 6e-05,
+      "loss": 1.7376,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 144,
+        "ag_news": 166,
+        "amazon_polarity": 153,
+        "cnn_dailymail/3.0.0": 157,
+        "common_gen": 136,
+        "copa": 712,
+        "cos_e/v1.11": 152,
+        "glue/mrpc": 144,
+        "kilt_tasks/hotpotqa": 156
+      },
+      "step": 60
+    },
+    {
+      "epoch": 0.01,
+      "learning_rate": 7e-05,
+      "loss": 1.2345,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 164,
+        "ag_news": 196,
+        "amazon_polarity": 175,
+        "cnn_dailymail/3.0.0": 181,
+        "common_gen": 157,
+        "copa": 839,
+        "cos_e/v1.11": 178,
+        "glue/mrpc": 168,
+        "kilt_tasks/hotpotqa": 182
+      },
+      "step": 70
+    },
+    {
+      "epoch": 0.01,
+      "learning_rate": 8e-05,
+      "loss": 1.2567,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 187,
+        "ag_news": 222,
+        "amazon_polarity": 211,
+        "cnn_dailymail/3.0.0": 199,
+        "common_gen": 174,
+        "copa": 959,
+        "cos_e/v1.11": 207,
+        "glue/mrpc": 191,
+        "kilt_tasks/hotpotqa": 210
+      },
+      "step": 80
+    },
+    {
+      "epoch": 0.01,
+      "learning_rate": 9e-05,
+      "loss": 1.3603,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 217,
+        "ag_news": 250,
+        "amazon_polarity": 244,
+        "cnn_dailymail/3.0.0": 222,
+        "common_gen": 197,
+        "copa": 1087,
+        "cos_e/v1.11": 226,
+        "glue/mrpc": 209,
+        "kilt_tasks/hotpotqa": 228
+      },
+      "step": 90
+    },
+    {
+      "epoch": 0.01,
+      "learning_rate": 0.0001,
+      "loss": 1.2588,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 245,
+        "ag_news": 272,
+        "amazon_polarity": 267,
+        "cnn_dailymail/3.0.0": 242,
+        "common_gen": 212,
+        "copa": 1223,
+        "cos_e/v1.11": 248,
+        "glue/mrpc": 232,
+        "kilt_tasks/hotpotqa": 259
+      },
+      "step": 100
+    },
+    {
+      "epoch": 0.01,
+      "eval_accuracy": 0.6875,
+      "eval_runtime": 0.1934,
+      "eval_samples_per_second": 82.743,
+      "eval_steps_per_second": 5.171,
+      "step": 100
+    },
+    {
+      "epoch": 0.01,
+      "learning_rate": 0.0001,
+      "loss": 1.2329,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 276,
+        "ag_news": 301,
+        "amazon_polarity": 288,
+        "cnn_dailymail/3.0.0": 265,
+        "common_gen": 244,
+        "copa": 1348,
+        "cos_e/v1.11": 266,
+        "glue/mrpc": 248,
+        "kilt_tasks/hotpotqa": 284
+      },
+      "step": 110
+    },
+    {
+      "epoch": 0.01,
+      "learning_rate": 0.0001,
+      "loss": 1.2609,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 302,
+        "ag_news": 326,
+        "amazon_polarity": 304,
+        "cnn_dailymail/3.0.0": 279,
+        "common_gen": 274,
+        "copa": 1477,
+        "cos_e/v1.11": 294,
+        "glue/mrpc": 265,
+        "kilt_tasks/hotpotqa": 319
+      },
+      "step": 120
+    },
+    {
+      "epoch": 0.01,
+      "learning_rate": 0.0001,
+      "loss": 1.3231,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 327,
+        "ag_news": 343,
+        "amazon_polarity": 323,
+        "cnn_dailymail/3.0.0": 305,
+        "common_gen": 306,
+        "copa": 1583,
+        "cos_e/v1.11": 322,
+        "glue/mrpc": 307,
+        "kilt_tasks/hotpotqa": 344
+      },
+      "step": 130
+    },
+    {
+      "epoch": 0.01,
+      "learning_rate": 0.0001,
+      "loss": 1.2309,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 362,
+        "ag_news": 365,
+        "amazon_polarity": 339,
+        "cnn_dailymail/3.0.0": 332,
+        "common_gen": 327,
+        "copa": 1715,
+        "cos_e/v1.11": 341,
+        "glue/mrpc": 325,
+        "kilt_tasks/hotpotqa": 374
+      },
+      "step": 140
+    },
+    {
+      "epoch": 0.01,
+      "learning_rate": 0.0001,
+      "loss": 1.2636,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 395,
+        "ag_news": 385,
+        "amazon_polarity": 359,
+        "cnn_dailymail/3.0.0": 355,
+        "common_gen": 355,
+        "copa": 1843,
+        "cos_e/v1.11": 370,
+        "glue/mrpc": 347,
+        "kilt_tasks/hotpotqa": 391
+      },
+      "step": 150
+    },
+    {
+      "epoch": 0.02,
+      "learning_rate": 0.0001,
+      "loss": 1.1606,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 424,
+        "ag_news": 414,
+        "amazon_polarity": 386,
+        "cnn_dailymail/3.0.0": 381,
+        "common_gen": 385,
+        "copa": 1955,
+        "cos_e/v1.11": 385,
+        "glue/mrpc": 376,
+        "kilt_tasks/hotpotqa": 414
+      },
+      "step": 160
+    },
+    {
+      "epoch": 0.02,
+      "learning_rate": 0.0001,
+      "loss": 1.1911,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 439,
+        "ag_news": 442,
+        "amazon_polarity": 411,
+        "cnn_dailymail/3.0.0": 404,
+        "common_gen": 414,
+        "copa": 2077,
+        "cos_e/v1.11": 413,
+        "glue/mrpc": 403,
+        "kilt_tasks/hotpotqa": 437
+      },
+      "step": 170
+    },
+    {
+      "epoch": 0.02,
+      "learning_rate": 0.0001,
+      "loss": 1.0016,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 457,
+        "ag_news": 464,
+        "amazon_polarity": 440,
+        "cnn_dailymail/3.0.0": 423,
+        "common_gen": 440,
+        "copa": 2213,
+        "cos_e/v1.11": 433,
+        "glue/mrpc": 429,
+        "kilt_tasks/hotpotqa": 461
+      },
+      "step": 180
+    },
+    {
+      "epoch": 0.02,
+      "learning_rate": 0.0001,
+      "loss": 1.1563,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 488,
+        "ag_news": 488,
+        "amazon_polarity": 461,
+        "cnn_dailymail/3.0.0": 445,
+        "common_gen": 459,
+        "copa": 2340,
+        "cos_e/v1.11": 458,
+        "glue/mrpc": 457,
+        "kilt_tasks/hotpotqa": 484
+      },
+      "step": 190
+    },
+    {
+      "epoch": 0.02,
+      "learning_rate": 0.0001,
+      "loss": 1.1333,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 512,
+        "ag_news": 513,
+        "amazon_polarity": 485,
+        "cnn_dailymail/3.0.0": 467,
+        "common_gen": 479,
+        "copa": 2473,
+        "cos_e/v1.11": 482,
+        "glue/mrpc": 482,
+        "kilt_tasks/hotpotqa": 507
+      },
+      "step": 200
+    },
+    {
+      "epoch": 0.02,
+      "eval_accuracy": 0.6875,
+      "eval_runtime": 0.1811,
+      "eval_samples_per_second": 88.356,
+      "eval_steps_per_second": 5.522,
+      "step": 200
+    },
+    {
+      "epoch": 0.02,
+      "learning_rate": 0.0001,
+      "loss": 1.3176,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 536,
+        "ag_news": 547,
+        "amazon_polarity": 505,
+        "cnn_dailymail/3.0.0": 499,
+        "common_gen": 507,
+        "copa": 2581,
+        "cos_e/v1.11": 505,
+        "glue/mrpc": 502,
+        "kilt_tasks/hotpotqa": 538
+      },
+      "step": 210
+    },
+    {
+      "epoch": 0.02,
+      "learning_rate": 0.0001,
+      "loss": 1.1958,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 553,
+        "ag_news": 569,
+        "amazon_polarity": 529,
+        "cnn_dailymail/3.0.0": 526,
+        "common_gen": 530,
+        "copa": 2717,
+        "cos_e/v1.11": 536,
+        "glue/mrpc": 520,
+        "kilt_tasks/hotpotqa": 560
+      },
+      "step": 220
+    },
+    {
+      "epoch": 0.02,
+      "learning_rate": 0.0001,
+      "loss": 1.3366,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 574,
+        "ag_news": 591,
+        "amazon_polarity": 556,
+        "cnn_dailymail/3.0.0": 552,
+        "common_gen": 558,
+        "copa": 2842,
+        "cos_e/v1.11": 566,
+        "glue/mrpc": 539,
+        "kilt_tasks/hotpotqa": 582
+      },
+      "step": 230
+    },
+    {
+      "epoch": 0.02,
+      "learning_rate": 0.0001,
+      "loss": 1.1699,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 598,
+        "ag_news": 614,
+        "amazon_polarity": 584,
+        "cnn_dailymail/3.0.0": 578,
+        "common_gen": 582,
+        "copa": 2978,
+        "cos_e/v1.11": 583,
+        "glue/mrpc": 560,
+        "kilt_tasks/hotpotqa": 603
+      },
+      "step": 240
+    },
+    {
+      "epoch": 0.03,
+      "learning_rate": 0.0001,
+      "loss": 1.1728,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 629,
+        "ag_news": 633,
+        "amazon_polarity": 605,
+        "cnn_dailymail/3.0.0": 610,
+        "common_gen": 607,
+        "copa": 3111,
+        "cos_e/v1.11": 602,
+        "glue/mrpc": 579,
+        "kilt_tasks/hotpotqa": 624
+      },
+      "step": 250
+    },
+    {
+      "epoch": 0.03,
+      "learning_rate": 0.0001,
+      "loss": 1.1419,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 656,
+        "ag_news": 654,
+        "amazon_polarity": 634,
+        "cnn_dailymail/3.0.0": 629,
+        "common_gen": 633,
+        "copa": 3230,
+        "cos_e/v1.11": 623,
+        "glue/mrpc": 601,
+        "kilt_tasks/hotpotqa": 660
+      },
+      "step": 260
+    },
+    {
+      "epoch": 0.03,
+      "learning_rate": 0.0001,
+      "loss": 1.0699,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 679,
+        "ag_news": 680,
+        "amazon_polarity": 659,
+        "cnn_dailymail/3.0.0": 650,
+        "common_gen": 653,
+        "copa": 3353,
+        "cos_e/v1.11": 646,
+        "glue/mrpc": 625,
+        "kilt_tasks/hotpotqa": 695
+      },
+      "step": 270
+    },
+    {
+      "epoch": 0.03,
+      "learning_rate": 0.0001,
+      "loss": 1.0201,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 698,
+        "ag_news": 698,
+        "amazon_polarity": 678,
+        "cnn_dailymail/3.0.0": 673,
+        "common_gen": 671,
+        "copa": 3500,
+        "cos_e/v1.11": 672,
+        "glue/mrpc": 649,
+        "kilt_tasks/hotpotqa": 721
+      },
+      "step": 280
+    },
+    {
+      "epoch": 0.03,
+      "learning_rate": 0.0001,
+      "loss": 1.5024,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 716,
+        "ag_news": 718,
+        "amazon_polarity": 704,
+        "cnn_dailymail/3.0.0": 710,
+        "common_gen": 687,
+        "copa": 3613,
+        "cos_e/v1.11": 700,
+        "glue/mrpc": 685,
+        "kilt_tasks/hotpotqa": 747
+      },
+      "step": 290
+    },
+    {
+      "epoch": 0.03,
+      "learning_rate": 0.0001,
+      "loss": 1.1748,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 741,
+        "ag_news": 740,
+        "amazon_polarity": 724,
+        "cnn_dailymail/3.0.0": 734,
+        "common_gen": 710,
+        "copa": 3744,
+        "cos_e/v1.11": 726,
+        "glue/mrpc": 706,
+        "kilt_tasks/hotpotqa": 775
+      },
+      "step": 300
+    },
+    {
+      "epoch": 0.03,
+      "eval_accuracy": 0.75,
+      "eval_runtime": 0.1905,
+      "eval_samples_per_second": 83.995,
+      "eval_steps_per_second": 5.25,
+      "step": 300
+    },
+    {
+      "epoch": 0.03,
+      "learning_rate": 0.0001,
+      "loss": 1.2112,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 751,
+        "ag_news": 765,
+        "amazon_polarity": 756,
+        "cnn_dailymail/3.0.0": 760,
+        "common_gen": 741,
+        "copa": 3872,
+        "cos_e/v1.11": 755,
+        "glue/mrpc": 723,
+        "kilt_tasks/hotpotqa": 797
+      },
+      "step": 310
+    },
+    {
+      "epoch": 0.03,
+      "learning_rate": 0.0001,
+      "loss": 1.0593,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 774,
+        "ag_news": 787,
+        "amazon_polarity": 779,
+        "cnn_dailymail/3.0.0": 777,
+        "common_gen": 776,
+        "copa": 4001,
+        "cos_e/v1.11": 782,
+        "glue/mrpc": 752,
+        "kilt_tasks/hotpotqa": 812
+      },
+      "step": 320
+    },
+    {
+      "epoch": 0.03,
+      "learning_rate": 0.0001,
+      "loss": 1.0543,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 799,
+        "ag_news": 807,
+        "amazon_polarity": 810,
+        "cnn_dailymail/3.0.0": 795,
+        "common_gen": 805,
+        "copa": 4123,
+        "cos_e/v1.11": 805,
+        "glue/mrpc": 778,
+        "kilt_tasks/hotpotqa": 838
+      },
+      "step": 330
+    },
+    {
+      "epoch": 0.03,
+      "learning_rate": 0.0001,
+      "loss": 1.2278,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 828,
+        "ag_news": 834,
+        "amazon_polarity": 830,
+        "cnn_dailymail/3.0.0": 812,
+        "common_gen": 836,
+        "copa": 4250,
+        "cos_e/v1.11": 830,
+        "glue/mrpc": 799,
+        "kilt_tasks/hotpotqa": 861
+      },
+      "step": 340
+    },
+    {
+      "epoch": 0.04,
+      "learning_rate": 0.0001,
+      "loss": 1.0567,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 854,
+        "ag_news": 861,
+        "amazon_polarity": 851,
+        "cnn_dailymail/3.0.0": 833,
+        "common_gen": 856,
+        "copa": 4379,
+        "cos_e/v1.11": 858,
+        "glue/mrpc": 824,
+        "kilt_tasks/hotpotqa": 884
+      },
+      "step": 350
+    },
+    {
+      "epoch": 0.04,
+      "learning_rate": 0.0001,
+      "loss": 1.2138,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 877,
+        "ag_news": 881,
+        "amazon_polarity": 875,
+        "cnn_dailymail/3.0.0": 858,
+        "common_gen": 884,
+        "copa": 4501,
+        "cos_e/v1.11": 887,
+        "glue/mrpc": 851,
+        "kilt_tasks/hotpotqa": 906
+      },
+      "step": 360
+    },
+    {
+      "epoch": 0.04,
+      "learning_rate": 0.0001,
+      "loss": 1.0785,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 910,
+        "ag_news": 902,
+        "amazon_polarity": 897,
+        "cnn_dailymail/3.0.0": 888,
+        "common_gen": 902,
+        "copa": 4626,
+        "cos_e/v1.11": 912,
+        "glue/mrpc": 876,
+        "kilt_tasks/hotpotqa": 927
+      },
+      "step": 370
+    },
+    {
+      "epoch": 0.04,
+      "learning_rate": 0.0001,
+      "loss": 1.2233,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 932,
+        "ag_news": 932,
+        "amazon_polarity": 922,
+        "cnn_dailymail/3.0.0": 917,
+        "common_gen": 921,
+        "copa": 4753,
+        "cos_e/v1.11": 928,
+        "glue/mrpc": 907,
+        "kilt_tasks/hotpotqa": 948
+      },
+      "step": 380
+    },
+    {
+      "epoch": 0.04,
+      "learning_rate": 0.0001,
+      "loss": 1.0451,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 952,
+        "ag_news": 959,
+        "amazon_polarity": 942,
+        "cnn_dailymail/3.0.0": 943,
+        "common_gen": 945,
+        "copa": 4876,
+        "cos_e/v1.11": 953,
+        "glue/mrpc": 936,
+        "kilt_tasks/hotpotqa": 974
+      },
+      "step": 390
+    },
+    {
+      "epoch": 0.04,
+      "learning_rate": 0.0001,
+      "loss": 1.0654,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 966,
+        "ag_news": 980,
+        "amazon_polarity": 967,
+        "cnn_dailymail/3.0.0": 959,
+        "common_gen": 965,
+        "copa": 5011,
+        "cos_e/v1.11": 980,
+        "glue/mrpc": 962,
+        "kilt_tasks/hotpotqa": 1010
+      },
+      "step": 400
+    },
+    {
+      "epoch": 0.04,
+      "eval_accuracy": 0.5625,
+      "eval_runtime": 0.1876,
+      "eval_samples_per_second": 85.304,
+      "eval_steps_per_second": 5.332,
+      "step": 400
+    },
+    {
+      "epoch": 0.04,
+      "learning_rate": 0.0001,
+      "loss": 1.1459,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 994,
+        "ag_news": 1003,
+        "amazon_polarity": 994,
+        "cnn_dailymail/3.0.0": 988,
+        "common_gen": 989,
+        "copa": 5131,
+        "cos_e/v1.11": 1006,
+        "glue/mrpc": 980,
+        "kilt_tasks/hotpotqa": 1035
+      },
+      "step": 410
+    },
+    {
+      "epoch": 0.04,
+      "learning_rate": 0.0001,
+      "loss": 1.1857,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1017,
+        "ag_news": 1030,
+        "amazon_polarity": 1018,
+        "cnn_dailymail/3.0.0": 1008,
+        "common_gen": 1013,
+        "copa": 5257,
+        "cos_e/v1.11": 1032,
+        "glue/mrpc": 1008,
+        "kilt_tasks/hotpotqa": 1057
+      },
+      "step": 420
+    },
+    {
+      "epoch": 0.04,
+      "learning_rate": 0.0001,
+      "loss": 1.1469,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1038,
+        "ag_news": 1055,
+        "amazon_polarity": 1042,
+        "cnn_dailymail/3.0.0": 1029,
+        "common_gen": 1045,
+        "copa": 5392,
+        "cos_e/v1.11": 1053,
+        "glue/mrpc": 1027,
+        "kilt_tasks/hotpotqa": 1079
+      },
+      "step": 430
+    },
+    {
+      "epoch": 0.04,
+      "learning_rate": 0.0001,
+      "loss": 1.3729,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1064,
+        "ag_news": 1071,
+        "amazon_polarity": 1085,
+        "cnn_dailymail/3.0.0": 1056,
+        "common_gen": 1066,
+        "copa": 5510,
+        "cos_e/v1.11": 1079,
+        "glue/mrpc": 1048,
+        "kilt_tasks/hotpotqa": 1101
+      },
+      "step": 440
+    },
+    {
+      "epoch": 0.04,
+      "learning_rate": 0.0001,
+      "loss": 1.3886,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1087,
+        "ag_news": 1097,
+        "amazon_polarity": 1107,
+        "cnn_dailymail/3.0.0": 1091,
+        "common_gen": 1088,
+        "copa": 5638,
+        "cos_e/v1.11": 1106,
+        "glue/mrpc": 1065,
+        "kilt_tasks/hotpotqa": 1121
+      },
+      "step": 450
+    },
+    {
+      "epoch": 0.05,
+      "learning_rate": 0.0001,
+      "loss": 1.1928,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1103,
+        "ag_news": 1126,
+        "amazon_polarity": 1133,
+        "cnn_dailymail/3.0.0": 1113,
+        "common_gen": 1114,
+        "copa": 5754,
+        "cos_e/v1.11": 1135,
+        "glue/mrpc": 1096,
+        "kilt_tasks/hotpotqa": 1146
+      },
+      "step": 460
+    },
+    {
+      "epoch": 0.05,
+      "learning_rate": 0.0001,
+      "loss": 1.1937,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1128,
+        "ag_news": 1152,
+        "amazon_polarity": 1155,
+        "cnn_dailymail/3.0.0": 1138,
+        "common_gen": 1135,
+        "copa": 5875,
+        "cos_e/v1.11": 1157,
+        "glue/mrpc": 1127,
+        "kilt_tasks/hotpotqa": 1173
+      },
+      "step": 470
+    },
+    {
+      "epoch": 0.05,
+      "learning_rate": 0.0001,
+      "loss": 0.9896,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1156,
+        "ag_news": 1173,
+        "amazon_polarity": 1187,
+        "cnn_dailymail/3.0.0": 1164,
+        "common_gen": 1153,
+        "copa": 6005,
+        "cos_e/v1.11": 1171,
+        "glue/mrpc": 1155,
+        "kilt_tasks/hotpotqa": 1196
+      },
+      "step": 480
+    },
+    {
+      "epoch": 0.05,
+      "learning_rate": 0.0001,
+      "loss": 1.021,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1190,
+        "ag_news": 1200,
+        "amazon_polarity": 1206,
+        "cnn_dailymail/3.0.0": 1187,
+        "common_gen": 1177,
+        "copa": 6133,
+        "cos_e/v1.11": 1197,
+        "glue/mrpc": 1177,
+        "kilt_tasks/hotpotqa": 1213
+      },
+      "step": 490
+    },
+    {
+      "epoch": 0.05,
+      "learning_rate": 0.0001,
+      "loss": 1.1349,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1215,
+        "ag_news": 1225,
+        "amazon_polarity": 1228,
+        "cnn_dailymail/3.0.0": 1211,
+        "common_gen": 1199,
+        "copa": 6272,
+        "cos_e/v1.11": 1215,
+        "glue/mrpc": 1203,
+        "kilt_tasks/hotpotqa": 1232
+      },
+      "step": 500
+    },
+    {
+      "epoch": 0.05,
+      "eval_accuracy": 0.6875,
+      "eval_runtime": 0.1846,
+      "eval_samples_per_second": 86.655,
+      "eval_steps_per_second": 5.416,
+      "step": 500
+    },
+    {
+      "epoch": 0.05,
+      "learning_rate": 0.0001,
+      "loss": 1.3105,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1236,
+        "ag_news": 1244,
+        "amazon_polarity": 1263,
+        "cnn_dailymail/3.0.0": 1238,
+        "common_gen": 1231,
+        "copa": 6372,
+        "cos_e/v1.11": 1238,
+        "glue/mrpc": 1233,
+        "kilt_tasks/hotpotqa": 1265
+      },
+      "step": 510
+    },
+    {
+      "epoch": 0.05,
+      "learning_rate": 0.0001,
+      "loss": 1.3857,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1267,
+        "ag_news": 1265,
+        "amazon_polarity": 1284,
+        "cnn_dailymail/3.0.0": 1272,
+        "common_gen": 1257,
+        "copa": 6493,
+        "cos_e/v1.11": 1260,
+        "glue/mrpc": 1261,
+        "kilt_tasks/hotpotqa": 1281
+      },
+      "step": 520
+    },
+    {
+      "epoch": 0.05,
+      "learning_rate": 0.0001,
+      "loss": 1.0572,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1292,
+        "ag_news": 1283,
+        "amazon_polarity": 1312,
+        "cnn_dailymail/3.0.0": 1302,
+        "common_gen": 1281,
+        "copa": 6613,
+        "cos_e/v1.11": 1285,
+        "glue/mrpc": 1287,
+        "kilt_tasks/hotpotqa": 1305
+      },
+      "step": 530
+    },
+    {
+      "epoch": 0.05,
+      "learning_rate": 0.0001,
+      "loss": 0.993,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1313,
+        "ag_news": 1311,
+        "amazon_polarity": 1340,
+        "cnn_dailymail/3.0.0": 1325,
+        "common_gen": 1303,
+        "copa": 6738,
+        "cos_e/v1.11": 1308,
+        "glue/mrpc": 1315,
+        "kilt_tasks/hotpotqa": 1327
+      },
+      "step": 540
+    },
+    {
+      "epoch": 0.06,
+      "learning_rate": 0.0001,
+      "loss": 1.2502,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1341,
+        "ag_news": 1334,
+        "amazon_polarity": 1367,
+        "cnn_dailymail/3.0.0": 1349,
+        "common_gen": 1322,
+        "copa": 6866,
+        "cos_e/v1.11": 1332,
+        "glue/mrpc": 1336,
+        "kilt_tasks/hotpotqa": 1353
+      },
+      "step": 550
+    },
+    {
+      "epoch": 0.06,
+      "learning_rate": 0.0001,
+      "loss": 1.1196,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1360,
+        "ag_news": 1355,
+        "amazon_polarity": 1389,
+        "cnn_dailymail/3.0.0": 1373,
+        "common_gen": 1353,
+        "copa": 6992,
+        "cos_e/v1.11": 1358,
+        "glue/mrpc": 1361,
+        "kilt_tasks/hotpotqa": 1379
+      },
+      "step": 560
+    },
+    {
+      "epoch": 0.06,
+      "learning_rate": 0.0001,
+      "loss": 1.3822,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1383,
+        "ag_news": 1382,
+        "amazon_polarity": 1418,
+        "cnn_dailymail/3.0.0": 1406,
+        "common_gen": 1384,
+        "copa": 7095,
+        "cos_e/v1.11": 1377,
+        "glue/mrpc": 1389,
+        "kilt_tasks/hotpotqa": 1406
+      },
+      "step": 570
+    },
+    {
+      "epoch": 0.06,
+      "learning_rate": 0.0001,
+      "loss": 1.3049,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1408,
+        "ag_news": 1408,
+        "amazon_polarity": 1436,
+        "cnn_dailymail/3.0.0": 1437,
+        "common_gen": 1407,
+        "copa": 7221,
+        "cos_e/v1.11": 1404,
+        "glue/mrpc": 1411,
+        "kilt_tasks/hotpotqa": 1428
+      },
+      "step": 580
+    },
+    {
+      "epoch": 0.06,
+      "learning_rate": 0.0001,
+      "loss": 1.199,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1429,
+        "ag_news": 1431,
+        "amazon_polarity": 1462,
+        "cnn_dailymail/3.0.0": 1464,
+        "common_gen": 1431,
+        "copa": 7341,
+        "cos_e/v1.11": 1433,
+        "glue/mrpc": 1441,
+        "kilt_tasks/hotpotqa": 1448
+      },
+      "step": 590
+    },
+    {
+      "epoch": 0.06,
+      "learning_rate": 0.0001,
+      "loss": 1.1463,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1455,
+        "ag_news": 1454,
+        "amazon_polarity": 1480,
+        "cnn_dailymail/3.0.0": 1496,
+        "common_gen": 1453,
+        "copa": 7460,
+        "cos_e/v1.11": 1464,
+        "glue/mrpc": 1462,
+        "kilt_tasks/hotpotqa": 1476
+      },
+      "step": 600
+    },
+    {
+      "epoch": 0.06,
+      "eval_accuracy": 0.75,
+      "eval_runtime": 0.188,
+      "eval_samples_per_second": 85.109,
+      "eval_steps_per_second": 5.319,
+      "step": 600
+    },
+    {
+      "epoch": 0.06,
+      "learning_rate": 0.0001,
+      "loss": 1.222,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1479,
+        "ag_news": 1479,
+        "amazon_polarity": 1505,
+        "cnn_dailymail/3.0.0": 1524,
+        "common_gen": 1474,
+        "copa": 7580,
+        "cos_e/v1.11": 1487,
+        "glue/mrpc": 1496,
+        "kilt_tasks/hotpotqa": 1496
+      },
+      "step": 610
+    },
+    {
+      "epoch": 0.06,
+      "learning_rate": 0.0001,
+      "loss": 1.162,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1512,
+        "ag_news": 1505,
+        "amazon_polarity": 1529,
+        "cnn_dailymail/3.0.0": 1550,
+        "common_gen": 1501,
+        "copa": 7699,
+        "cos_e/v1.11": 1504,
+        "glue/mrpc": 1524,
+        "kilt_tasks/hotpotqa": 1516
+      },
+      "step": 620
+    },
+    {
+      "epoch": 0.06,
+      "learning_rate": 0.0001,
+      "loss": 1.1579,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1541,
+        "ag_news": 1527,
+        "amazon_polarity": 1568,
+        "cnn_dailymail/3.0.0": 1573,
+        "common_gen": 1529,
+        "copa": 7796,
+        "cos_e/v1.11": 1526,
+        "glue/mrpc": 1557,
+        "kilt_tasks/hotpotqa": 1543
+      },
+      "step": 630
+    },
+    {
+      "epoch": 0.06,
+      "learning_rate": 0.0001,
+      "loss": 1.231,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1565,
+        "ag_news": 1558,
+        "amazon_polarity": 1589,
+        "cnn_dailymail/3.0.0": 1606,
+        "common_gen": 1555,
+        "copa": 7913,
+        "cos_e/v1.11": 1549,
+        "glue/mrpc": 1583,
+        "kilt_tasks/hotpotqa": 1562
+      },
+      "step": 640
+    },
+    {
+      "epoch": 0.07,
+      "learning_rate": 0.0001,
+      "loss": 1.2937,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1596,
+        "ag_news": 1580,
+        "amazon_polarity": 1611,
+        "cnn_dailymail/3.0.0": 1636,
+        "common_gen": 1582,
+        "copa": 8027,
+        "cos_e/v1.11": 1577,
+        "glue/mrpc": 1606,
+        "kilt_tasks/hotpotqa": 1585
+      },
+      "step": 650
+    },
+    {
+      "epoch": 0.07,
+      "learning_rate": 0.0001,
+      "loss": 1.2467,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1625,
+        "ag_news": 1606,
+        "amazon_polarity": 1634,
+        "cnn_dailymail/3.0.0": 1659,
+        "common_gen": 1611,
+        "copa": 8138,
+        "cos_e/v1.11": 1605,
+        "glue/mrpc": 1630,
+        "kilt_tasks/hotpotqa": 1612
+      },
+      "step": 660
+    },
+    {
+      "epoch": 0.07,
+      "learning_rate": 0.0001,
+      "loss": 1.2005,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1651,
+        "ag_news": 1630,
+        "amazon_polarity": 1657,
+        "cnn_dailymail/3.0.0": 1680,
+        "common_gen": 1643,
+        "copa": 8259,
+        "cos_e/v1.11": 1632,
+        "glue/mrpc": 1654,
+        "kilt_tasks/hotpotqa": 1634
+      },
+      "step": 670
+    },
+    {
+      "epoch": 0.07,
+      "learning_rate": 0.0001,
+      "loss": 1.1332,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1674,
+        "ag_news": 1645,
+        "amazon_polarity": 1682,
+        "cnn_dailymail/3.0.0": 1707,
+        "common_gen": 1664,
+        "copa": 8398,
+        "cos_e/v1.11": 1651,
+        "glue/mrpc": 1675,
+        "kilt_tasks/hotpotqa": 1664
+      },
+      "step": 680
+    },
+    {
+      "epoch": 0.07,
+      "learning_rate": 0.0001,
+      "loss": 1.1586,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1699,
+        "ag_news": 1668,
+        "amazon_polarity": 1703,
+        "cnn_dailymail/3.0.0": 1731,
+        "common_gen": 1693,
+        "copa": 8516,
+        "cos_e/v1.11": 1677,
+        "glue/mrpc": 1703,
+        "kilt_tasks/hotpotqa": 1690
+      },
+      "step": 690
+    },
+    {
+      "epoch": 0.07,
+      "learning_rate": 0.0001,
+      "loss": 1.1684,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1724,
+        "ag_news": 1684,
+        "amazon_polarity": 1723,
+        "cnn_dailymail/3.0.0": 1751,
+        "common_gen": 1715,
+        "copa": 8640,
+        "cos_e/v1.11": 1705,
+        "glue/mrpc": 1728,
+        "kilt_tasks/hotpotqa": 1730
+      },
+      "step": 700
+    },
+    {
+      "epoch": 0.07,
+      "eval_accuracy": 0.6875,
+      "eval_runtime": 0.2715,
+      "eval_samples_per_second": 58.937,
+      "eval_steps_per_second": 3.684,
+      "step": 700
+    },
+    {
+      "epoch": 0.07,
+      "learning_rate": 0.0001,
+      "loss": 1.0512,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1751,
+        "ag_news": 1704,
+        "amazon_polarity": 1749,
+        "cnn_dailymail/3.0.0": 1772,
+        "common_gen": 1741,
+        "copa": 8759,
+        "cos_e/v1.11": 1733,
+        "glue/mrpc": 1760,
+        "kilt_tasks/hotpotqa": 1751
+      },
+      "step": 710
+    },
+    {
+      "epoch": 0.07,
+      "learning_rate": 0.0001,
+      "loss": 1.0231,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1780,
+        "ag_news": 1734,
+        "amazon_polarity": 1776,
+        "cnn_dailymail/3.0.0": 1790,
+        "common_gen": 1768,
+        "copa": 8865,
+        "cos_e/v1.11": 1753,
+        "glue/mrpc": 1792,
+        "kilt_tasks/hotpotqa": 1782
+      },
+      "step": 720
+    },
+    {
+      "epoch": 0.07,
+      "learning_rate": 0.0001,
+      "loss": 1.3479,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1800,
+        "ag_news": 1761,
+        "amazon_polarity": 1803,
+        "cnn_dailymail/3.0.0": 1823,
+        "common_gen": 1786,
+        "copa": 8986,
+        "cos_e/v1.11": 1779,
+        "glue/mrpc": 1817,
+        "kilt_tasks/hotpotqa": 1805
+      },
+      "step": 730
+    },
+    {
+      "epoch": 0.07,
+      "learning_rate": 0.0001,
+      "loss": 1.1494,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1826,
+        "ag_news": 1785,
+        "amazon_polarity": 1828,
+        "cnn_dailymail/3.0.0": 1845,
+        "common_gen": 1815,
+        "copa": 9090,
+        "cos_e/v1.11": 1815,
+        "glue/mrpc": 1848,
+        "kilt_tasks/hotpotqa": 1828
+      },
+      "step": 740
+    },
+    {
+      "epoch": 0.07,
+      "learning_rate": 0.0001,
+      "loss": 1.1925,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1850,
+        "ag_news": 1810,
+        "amazon_polarity": 1847,
+        "cnn_dailymail/3.0.0": 1871,
+        "common_gen": 1849,
+        "copa": 9212,
+        "cos_e/v1.11": 1840,
+        "glue/mrpc": 1867,
+        "kilt_tasks/hotpotqa": 1854
+      },
+      "step": 750
+    },
+    {
+      "epoch": 0.08,
+      "learning_rate": 0.0001,
+      "loss": 0.9129,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1880,
+        "ag_news": 1833,
+        "amazon_polarity": 1874,
+        "cnn_dailymail/3.0.0": 1885,
+        "common_gen": 1873,
+        "copa": 9337,
+        "cos_e/v1.11": 1864,
+        "glue/mrpc": 1894,
+        "kilt_tasks/hotpotqa": 1880
+      },
+      "step": 760
+    },
+    {
+      "epoch": 0.08,
+      "learning_rate": 0.0001,
+      "loss": 1.1691,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1903,
+        "ag_news": 1858,
+        "amazon_polarity": 1898,
+        "cnn_dailymail/3.0.0": 1913,
+        "common_gen": 1892,
+        "copa": 9460,
+        "cos_e/v1.11": 1891,
+        "glue/mrpc": 1914,
+        "kilt_tasks/hotpotqa": 1911
+      },
+      "step": 770
+    },
+    {
+      "epoch": 0.08,
+      "learning_rate": 0.0001,
+      "loss": 1.0513,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1927,
+        "ag_news": 1880,
+        "amazon_polarity": 1928,
+        "cnn_dailymail/3.0.0": 1934,
+        "common_gen": 1921,
+        "copa": 9569,
+        "cos_e/v1.11": 1922,
+        "glue/mrpc": 1942,
+        "kilt_tasks/hotpotqa": 1937
+      },
+      "step": 780
+    },
+    {
+      "epoch": 0.08,
+      "learning_rate": 0.0001,
+      "loss": 1.1524,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1949,
+        "ag_news": 1908,
+        "amazon_polarity": 1949,
+        "cnn_dailymail/3.0.0": 1956,
+        "common_gen": 1942,
+        "copa": 9706,
+        "cos_e/v1.11": 1940,
+        "glue/mrpc": 1962,
+        "kilt_tasks/hotpotqa": 1968
+      },
+      "step": 790
+    },
+    {
+      "epoch": 0.08,
+      "learning_rate": 0.0001,
+      "loss": 1.1485,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 1979,
+        "ag_news": 1930,
+        "amazon_polarity": 1979,
+        "cnn_dailymail/3.0.0": 1983,
+        "common_gen": 1968,
+        "copa": 9829,
+        "cos_e/v1.11": 1961,
+        "glue/mrpc": 1984,
+        "kilt_tasks/hotpotqa": 1987
+      },
+      "step": 800
+    },
+    {
+      "epoch": 0.08,
+      "eval_accuracy": 0.75,
+      "eval_runtime": 0.1898,
+      "eval_samples_per_second": 84.277,
+      "eval_steps_per_second": 5.267,
+      "step": 800
+    },
+    {
+      "epoch": 0.08,
+      "learning_rate": 0.0001,
+      "loss": 1.0804,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2003,
+        "ag_news": 1956,
+        "amazon_polarity": 2007,
+        "cnn_dailymail/3.0.0": 2008,
+        "common_gen": 1995,
+        "copa": 9949,
+        "cos_e/v1.11": 1981,
+        "glue/mrpc": 2012,
+        "kilt_tasks/hotpotqa": 2009
+      },
+      "step": 810
+    },
+    {
+      "epoch": 0.08,
+      "learning_rate": 0.0001,
+      "loss": 1.205,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2024,
+        "ag_news": 1983,
+        "amazon_polarity": 2026,
+        "cnn_dailymail/3.0.0": 2032,
+        "common_gen": 2015,
+        "copa": 10079,
+        "cos_e/v1.11": 2007,
+        "glue/mrpc": 2040,
+        "kilt_tasks/hotpotqa": 2034
+      },
+      "step": 820
+    },
+    {
+      "epoch": 0.08,
+      "learning_rate": 0.0001,
+      "loss": 1.1248,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2044,
+        "ag_news": 2012,
+        "amazon_polarity": 2047,
+        "cnn_dailymail/3.0.0": 2060,
+        "common_gen": 2041,
+        "copa": 10191,
+        "cos_e/v1.11": 2038,
+        "glue/mrpc": 2066,
+        "kilt_tasks/hotpotqa": 2061
+      },
+      "step": 830
+    },
+    {
+      "epoch": 0.08,
+      "learning_rate": 0.0001,
+      "loss": 1.1149,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2064,
+        "ag_news": 2032,
+        "amazon_polarity": 2070,
+        "cnn_dailymail/3.0.0": 2088,
+        "common_gen": 2070,
+        "copa": 10311,
+        "cos_e/v1.11": 2060,
+        "glue/mrpc": 2097,
+        "kilt_tasks/hotpotqa": 2088
+      },
+      "step": 840
+    },
+    {
+      "epoch": 0.09,
+      "learning_rate": 0.0001,
+      "loss": 1.1649,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2087,
+        "ag_news": 2053,
+        "amazon_polarity": 2093,
+        "cnn_dailymail/3.0.0": 2112,
+        "common_gen": 2104,
+        "copa": 10437,
+        "cos_e/v1.11": 2081,
+        "glue/mrpc": 2123,
+        "kilt_tasks/hotpotqa": 2110
+      },
+      "step": 850
+    },
+    {
+      "epoch": 0.09,
+      "learning_rate": 0.0001,
+      "loss": 1.0397,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2113,
+        "ag_news": 2077,
+        "amazon_polarity": 2122,
+        "cnn_dailymail/3.0.0": 2136,
+        "common_gen": 2132,
+        "copa": 10556,
+        "cos_e/v1.11": 2104,
+        "glue/mrpc": 2156,
+        "kilt_tasks/hotpotqa": 2124
+      },
+      "step": 860
+    },
+    {
+      "epoch": 0.09,
+      "learning_rate": 0.0001,
+      "loss": 1.2052,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2136,
+        "ag_news": 2103,
+        "amazon_polarity": 2147,
+        "cnn_dailymail/3.0.0": 2167,
+        "common_gen": 2162,
+        "copa": 10680,
+        "cos_e/v1.11": 2130,
+        "glue/mrpc": 2176,
+        "kilt_tasks/hotpotqa": 2139
+      },
+      "step": 870
+    },
+    {
+      "epoch": 0.09,
+      "learning_rate": 0.0001,
+      "loss": 1.0422,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2169,
+        "ag_news": 2127,
+        "amazon_polarity": 2175,
+        "cnn_dailymail/3.0.0": 2188,
+        "common_gen": 2191,
+        "copa": 10796,
+        "cos_e/v1.11": 2151,
+        "glue/mrpc": 2205,
+        "kilt_tasks/hotpotqa": 2158
+      },
+      "step": 880
+    },
+    {
+      "epoch": 0.09,
+      "learning_rate": 0.0001,
+      "loss": 1.1641,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2201,
+        "ag_news": 2162,
+        "amazon_polarity": 2201,
+        "cnn_dailymail/3.0.0": 2213,
+        "common_gen": 2215,
+        "copa": 10888,
+        "cos_e/v1.11": 2179,
+        "glue/mrpc": 2241,
+        "kilt_tasks/hotpotqa": 2180
+      },
+      "step": 890
+    },
+    {
+      "epoch": 0.09,
+      "learning_rate": 0.0001,
+      "loss": 1.2711,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2221,
+        "ag_news": 2187,
+        "amazon_polarity": 2228,
+        "cnn_dailymail/3.0.0": 2244,
+        "common_gen": 2242,
+        "copa": 11011,
+        "cos_e/v1.11": 2207,
+        "glue/mrpc": 2262,
+        "kilt_tasks/hotpotqa": 2198
+      },
+      "step": 900
+    },
+    {
+      "epoch": 0.09,
+      "eval_accuracy": 0.625,
+      "eval_runtime": 0.1761,
+      "eval_samples_per_second": 90.882,
+      "eval_steps_per_second": 5.68,
+      "step": 900
+    },
+    {
+      "epoch": 0.09,
+      "learning_rate": 0.0001,
+      "loss": 1.232,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2244,
+        "ag_news": 2211,
+        "amazon_polarity": 2253,
+        "cnn_dailymail/3.0.0": 2277,
+        "common_gen": 2270,
+        "copa": 11125,
+        "cos_e/v1.11": 2237,
+        "glue/mrpc": 2289,
+        "kilt_tasks/hotpotqa": 2214
+      },
+      "step": 910
+    },
+    {
+      "epoch": 0.09,
+      "learning_rate": 0.0001,
+      "loss": 1.1231,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2270,
+        "ag_news": 2223,
+        "amazon_polarity": 2288,
+        "cnn_dailymail/3.0.0": 2305,
+        "common_gen": 2292,
+        "copa": 11266,
+        "cos_e/v1.11": 2254,
+        "glue/mrpc": 2307,
+        "kilt_tasks/hotpotqa": 2235
+      },
+      "step": 920
+    },
+    {
+      "epoch": 0.09,
+      "learning_rate": 0.0001,
+      "loss": 1.1754,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2291,
+        "ag_news": 2248,
+        "amazon_polarity": 2310,
+        "cnn_dailymail/3.0.0": 2330,
+        "common_gen": 2324,
+        "copa": 11390,
+        "cos_e/v1.11": 2279,
+        "glue/mrpc": 2331,
+        "kilt_tasks/hotpotqa": 2257
+      },
+      "step": 930
+    },
+    {
+      "epoch": 0.09,
+      "learning_rate": 0.0001,
+      "loss": 1.2069,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2314,
+        "ag_news": 2279,
+        "amazon_polarity": 2326,
+        "cnn_dailymail/3.0.0": 2354,
+        "common_gen": 2350,
+        "copa": 11513,
+        "cos_e/v1.11": 2305,
+        "glue/mrpc": 2353,
+        "kilt_tasks/hotpotqa": 2286
+      },
+      "step": 940
+    },
+    {
+      "epoch": 0.1,
+      "learning_rate": 0.0001,
+      "loss": 0.9069,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2341,
+        "ag_news": 2306,
+        "amazon_polarity": 2355,
+        "cnn_dailymail/3.0.0": 2375,
+        "common_gen": 2375,
+        "copa": 11633,
+        "cos_e/v1.11": 2326,
+        "glue/mrpc": 2380,
+        "kilt_tasks/hotpotqa": 2309
+      },
+      "step": 950
+    },
+    {
+      "epoch": 0.1,
+      "learning_rate": 0.0001,
+      "loss": 0.9606,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2372,
+        "ag_news": 2329,
+        "amazon_polarity": 2380,
+        "cnn_dailymail/3.0.0": 2395,
+        "common_gen": 2398,
+        "copa": 11763,
+        "cos_e/v1.11": 2350,
+        "glue/mrpc": 2406,
+        "kilt_tasks/hotpotqa": 2327
+      },
+      "step": 960
+    },
+    {
+      "epoch": 0.1,
+      "learning_rate": 0.0001,
+      "loss": 0.9611,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2391,
+        "ag_news": 2346,
+        "amazon_polarity": 2395,
+        "cnn_dailymail/3.0.0": 2420,
+        "common_gen": 2421,
+        "copa": 11914,
+        "cos_e/v1.11": 2373,
+        "glue/mrpc": 2430,
+        "kilt_tasks/hotpotqa": 2350
+      },
+      "step": 970
+    },
+    {
+      "epoch": 0.1,
+      "learning_rate": 0.0001,
+      "loss": 1.2868,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2417,
+        "ag_news": 2375,
+        "amazon_polarity": 2423,
+        "cnn_dailymail/3.0.0": 2443,
+        "common_gen": 2450,
+        "copa": 12028,
+        "cos_e/v1.11": 2399,
+        "glue/mrpc": 2452,
+        "kilt_tasks/hotpotqa": 2373
+      },
+      "step": 980
+    },
+    {
+      "epoch": 0.1,
+      "learning_rate": 0.0001,
+      "loss": 1.0603,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2437,
+        "ag_news": 2396,
+        "amazon_polarity": 2441,
+        "cnn_dailymail/3.0.0": 2464,
+        "common_gen": 2481,
+        "copa": 12166,
+        "cos_e/v1.11": 2424,
+        "glue/mrpc": 2469,
+        "kilt_tasks/hotpotqa": 2402
+      },
+      "step": 990
+    },
+    {
+      "epoch": 0.1,
+      "learning_rate": 0.0001,
+      "loss": 1.2211,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2459,
+        "ag_news": 2416,
+        "amazon_polarity": 2471,
+        "cnn_dailymail/3.0.0": 2492,
+        "common_gen": 2506,
+        "copa": 12294,
+        "cos_e/v1.11": 2447,
+        "glue/mrpc": 2496,
+        "kilt_tasks/hotpotqa": 2419
+      },
+      "step": 1000
+    },
+    {
+      "epoch": 0.1,
+      "eval_accuracy": 0.75,
+      "eval_runtime": 0.1937,
+      "eval_samples_per_second": 82.602,
+      "eval_steps_per_second": 5.163,
+      "step": 1000
+    },
+    {
+      "epoch": 0.1,
+      "learning_rate": 0.0001,
+      "loss": 1.1909,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2484,
+        "ag_news": 2439,
+        "amazon_polarity": 2497,
+        "cnn_dailymail/3.0.0": 2516,
+        "common_gen": 2538,
+        "copa": 12417,
+        "cos_e/v1.11": 2472,
+        "glue/mrpc": 2518,
+        "kilt_tasks/hotpotqa": 2439
+      },
+      "step": 1010
+    },
+    {
+      "epoch": 0.1,
+      "learning_rate": 0.0001,
+      "loss": 0.9617,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2498,
+        "ag_news": 2464,
+        "amazon_polarity": 2519,
+        "cnn_dailymail/3.0.0": 2536,
+        "common_gen": 2566,
+        "copa": 12546,
+        "cos_e/v1.11": 2499,
+        "glue/mrpc": 2548,
+        "kilt_tasks/hotpotqa": 2464
+      },
+      "step": 1020
+    },
+    {
+      "epoch": 0.1,
+      "learning_rate": 0.0001,
+      "loss": 1.2375,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2523,
+        "ag_news": 2494,
+        "amazon_polarity": 2543,
+        "cnn_dailymail/3.0.0": 2563,
+        "common_gen": 2588,
+        "copa": 12662,
+        "cos_e/v1.11": 2533,
+        "glue/mrpc": 2568,
+        "kilt_tasks/hotpotqa": 2486
+      },
+      "step": 1030
+    },
+    {
+      "epoch": 0.1,
+      "learning_rate": 0.0001,
+      "loss": 1.3067,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2550,
+        "ag_news": 2515,
+        "amazon_polarity": 2573,
+        "cnn_dailymail/3.0.0": 2593,
+        "common_gen": 2610,
+        "copa": 12771,
+        "cos_e/v1.11": 2554,
+        "glue/mrpc": 2598,
+        "kilt_tasks/hotpotqa": 2516
+      },
+      "step": 1040
+    },
+    {
+      "epoch": 0.1,
+      "learning_rate": 0.0001,
+      "loss": 1.1581,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2571,
+        "ag_news": 2535,
+        "amazon_polarity": 2602,
+        "cnn_dailymail/3.0.0": 2617,
+        "common_gen": 2627,
+        "copa": 12901,
+        "cos_e/v1.11": 2582,
+        "glue/mrpc": 2625,
+        "kilt_tasks/hotpotqa": 2540
+      },
+      "step": 1050
+    },
+    {
+      "epoch": 0.11,
+      "learning_rate": 0.0001,
+      "loss": 1.0805,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2595,
+        "ag_news": 2559,
+        "amazon_polarity": 2624,
+        "cnn_dailymail/3.0.0": 2637,
+        "common_gen": 2654,
+        "copa": 13033,
+        "cos_e/v1.11": 2605,
+        "glue/mrpc": 2645,
+        "kilt_tasks/hotpotqa": 2568
+      },
+      "step": 1060
+    },
+    {
+      "epoch": 0.11,
+      "learning_rate": 0.0001,
+      "loss": 1.026,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2620,
+        "ag_news": 2589,
+        "amazon_polarity": 2644,
+        "cnn_dailymail/3.0.0": 2661,
+        "common_gen": 2671,
+        "copa": 13152,
+        "cos_e/v1.11": 2632,
+        "glue/mrpc": 2669,
+        "kilt_tasks/hotpotqa": 2602
+      },
+      "step": 1070
+    },
+    {
+      "epoch": 0.11,
+      "learning_rate": 0.0001,
+      "loss": 1.0464,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2642,
+        "ag_news": 2614,
+        "amazon_polarity": 2667,
+        "cnn_dailymail/3.0.0": 2684,
+        "common_gen": 2689,
+        "copa": 13273,
+        "cos_e/v1.11": 2659,
+        "glue/mrpc": 2705,
+        "kilt_tasks/hotpotqa": 2627
+      },
+      "step": 1080
+    },
+    {
+      "epoch": 0.11,
+      "learning_rate": 0.0001,
+      "loss": 1.0341,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2656,
+        "ag_news": 2646,
+        "amazon_polarity": 2693,
+        "cnn_dailymail/3.0.0": 2698,
+        "common_gen": 2705,
+        "copa": 13397,
+        "cos_e/v1.11": 2695,
+        "glue/mrpc": 2726,
+        "kilt_tasks/hotpotqa": 2664
+      },
+      "step": 1090
+    },
+    {
+      "epoch": 0.11,
+      "learning_rate": 0.0001,
+      "loss": 1.1367,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2685,
+        "ag_news": 2677,
+        "amazon_polarity": 2711,
+        "cnn_dailymail/3.0.0": 2727,
+        "common_gen": 2727,
+        "copa": 13530,
+        "cos_e/v1.11": 2718,
+        "glue/mrpc": 2743,
+        "kilt_tasks/hotpotqa": 2682
+      },
+      "step": 1100
+    },
+    {
+      "epoch": 0.11,
+      "eval_accuracy": 0.75,
+      "eval_runtime": 0.1829,
+      "eval_samples_per_second": 87.482,
+      "eval_steps_per_second": 5.468,
+      "step": 1100
+    },
+    {
+      "epoch": 0.11,
+      "learning_rate": 0.0001,
+      "loss": 1.1948,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2714,
+        "ag_news": 2698,
+        "amazon_polarity": 2734,
+        "cnn_dailymail/3.0.0": 2754,
+        "common_gen": 2754,
+        "copa": 13652,
+        "cos_e/v1.11": 2745,
+        "glue/mrpc": 2764,
+        "kilt_tasks/hotpotqa": 2705
+      },
+      "step": 1110
+    },
+    {
+      "epoch": 0.11,
+      "learning_rate": 0.0001,
+      "loss": 1.1436,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2739,
+        "ag_news": 2725,
+        "amazon_polarity": 2758,
+        "cnn_dailymail/3.0.0": 2781,
+        "common_gen": 2778,
+        "copa": 13772,
+        "cos_e/v1.11": 2768,
+        "glue/mrpc": 2785,
+        "kilt_tasks/hotpotqa": 2734
+      },
+      "step": 1120
+    },
+    {
+      "epoch": 0.11,
+      "learning_rate": 0.0001,
+      "loss": 1.0609,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2767,
+        "ag_news": 2744,
+        "amazon_polarity": 2784,
+        "cnn_dailymail/3.0.0": 2806,
+        "common_gen": 2806,
+        "copa": 13892,
+        "cos_e/v1.11": 2800,
+        "glue/mrpc": 2808,
+        "kilt_tasks/hotpotqa": 2753
+      },
+      "step": 1130
+    },
+    {
+      "epoch": 0.11,
+      "learning_rate": 0.0001,
+      "loss": 1.3523,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2782,
+        "ag_news": 2764,
+        "amazon_polarity": 2809,
+        "cnn_dailymail/3.0.0": 2843,
+        "common_gen": 2833,
+        "copa": 14023,
+        "cos_e/v1.11": 2826,
+        "glue/mrpc": 2831,
+        "kilt_tasks/hotpotqa": 2769
+      },
+      "step": 1140
+    },
+    {
+      "epoch": 0.12,
+      "learning_rate": 0.0001,
+      "loss": 1.1152,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2804,
+        "ag_news": 2792,
+        "amazon_polarity": 2828,
+        "cnn_dailymail/3.0.0": 2870,
+        "common_gen": 2852,
+        "copa": 14154,
+        "cos_e/v1.11": 2842,
+        "glue/mrpc": 2862,
+        "kilt_tasks/hotpotqa": 2796
+      },
+      "step": 1150
+    },
+    {
+      "epoch": 0.12,
+      "learning_rate": 0.0001,
+      "loss": 1.2122,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2826,
+        "ag_news": 2816,
+        "amazon_polarity": 2850,
+        "cnn_dailymail/3.0.0": 2901,
+        "common_gen": 2874,
+        "copa": 14278,
+        "cos_e/v1.11": 2865,
+        "glue/mrpc": 2886,
+        "kilt_tasks/hotpotqa": 2824
+      },
+      "step": 1160
+    },
+    {
+      "epoch": 0.12,
+      "learning_rate": 0.0001,
+      "loss": 1.1692,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2846,
+        "ag_news": 2838,
+        "amazon_polarity": 2873,
+        "cnn_dailymail/3.0.0": 2929,
+        "common_gen": 2899,
+        "copa": 14406,
+        "cos_e/v1.11": 2889,
+        "glue/mrpc": 2914,
+        "kilt_tasks/hotpotqa": 2846
+      },
+      "step": 1170
+    },
+    {
+      "epoch": 0.12,
+      "learning_rate": 0.0001,
+      "loss": 1.1223,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2870,
+        "ag_news": 2857,
+        "amazon_polarity": 2895,
+        "cnn_dailymail/3.0.0": 2956,
+        "common_gen": 2924,
+        "copa": 14540,
+        "cos_e/v1.11": 2911,
+        "glue/mrpc": 2942,
+        "kilt_tasks/hotpotqa": 2865
+      },
+      "step": 1180
+    },
+    {
+      "epoch": 0.12,
+      "learning_rate": 0.0001,
+      "loss": 1.2649,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2901,
+        "ag_news": 2876,
+        "amazon_polarity": 2916,
+        "cnn_dailymail/3.0.0": 2990,
+        "common_gen": 2940,
+        "copa": 14671,
+        "cos_e/v1.11": 2936,
+        "glue/mrpc": 2963,
+        "kilt_tasks/hotpotqa": 2887
+      },
+      "step": 1190
+    },
+    {
+      "epoch": 0.12,
+      "learning_rate": 0.0001,
+      "loss": 1.1066,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2935,
+        "ag_news": 2900,
+        "amazon_polarity": 2935,
+        "cnn_dailymail/3.0.0": 3020,
+        "common_gen": 2971,
+        "copa": 14803,
+        "cos_e/v1.11": 2950,
+        "glue/mrpc": 2982,
+        "kilt_tasks/hotpotqa": 2904
+      },
+      "step": 1200
+    },
+    {
+      "epoch": 0.12,
+      "eval_accuracy": 0.8125,
+      "eval_runtime": 0.198,
+      "eval_samples_per_second": 80.81,
+      "eval_steps_per_second": 5.051,
+      "step": 1200
+    },
+    {
+      "epoch": 0.12,
+      "learning_rate": 0.0001,
+      "loss": 0.9385,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2953,
+        "ag_news": 2926,
+        "amazon_polarity": 2962,
+        "cnn_dailymail/3.0.0": 3042,
+        "common_gen": 2995,
+        "copa": 14933,
+        "cos_e/v1.11": 2973,
+        "glue/mrpc": 3003,
+        "kilt_tasks/hotpotqa": 2933
+      },
+      "step": 1210
+    },
+    {
+      "epoch": 0.12,
+      "learning_rate": 0.0001,
+      "loss": 1.1699,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2974,
+        "ag_news": 2947,
+        "amazon_polarity": 2984,
+        "cnn_dailymail/3.0.0": 3071,
+        "common_gen": 3016,
+        "copa": 15055,
+        "cos_e/v1.11": 2999,
+        "glue/mrpc": 3036,
+        "kilt_tasks/hotpotqa": 2958
+      },
+      "step": 1220
+    },
+    {
+      "epoch": 0.12,
+      "learning_rate": 0.0001,
+      "loss": 1.0239,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 2995,
+        "ag_news": 2972,
+        "amazon_polarity": 3003,
+        "cnn_dailymail/3.0.0": 3094,
+        "common_gen": 3046,
+        "copa": 15186,
+        "cos_e/v1.11": 3032,
+        "glue/mrpc": 3057,
+        "kilt_tasks/hotpotqa": 2975
+      },
+      "step": 1230
+    },
+    {
+      "epoch": 0.12,
+      "learning_rate": 0.0001,
+      "loss": 1.1879,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3027,
+        "ag_news": 2995,
+        "amazon_polarity": 3030,
+        "cnn_dailymail/3.0.0": 3114,
+        "common_gen": 3069,
+        "copa": 15318,
+        "cos_e/v1.11": 3048,
+        "glue/mrpc": 3079,
+        "kilt_tasks/hotpotqa": 3000
+      },
+      "step": 1240
+    },
+    {
+      "epoch": 0.12,
+      "learning_rate": 0.0001,
+      "loss": 1.1181,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3049,
+        "ag_news": 3015,
+        "amazon_polarity": 3051,
+        "cnn_dailymail/3.0.0": 3137,
+        "common_gen": 3091,
+        "copa": 15451,
+        "cos_e/v1.11": 3074,
+        "glue/mrpc": 3104,
+        "kilt_tasks/hotpotqa": 3028
+      },
+      "step": 1250
+    },
+    {
+      "epoch": 0.13,
+      "learning_rate": 0.0001,
+      "loss": 0.9889,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3074,
+        "ag_news": 3040,
+        "amazon_polarity": 3073,
+        "cnn_dailymail/3.0.0": 3155,
+        "common_gen": 3116,
+        "copa": 15592,
+        "cos_e/v1.11": 3091,
+        "glue/mrpc": 3127,
+        "kilt_tasks/hotpotqa": 3052
+      },
+      "step": 1260
+    },
+    {
+      "epoch": 0.13,
+      "learning_rate": 0.0001,
+      "loss": 1.1407,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3098,
+        "ag_news": 3068,
+        "amazon_polarity": 3099,
+        "cnn_dailymail/3.0.0": 3183,
+        "common_gen": 3139,
+        "copa": 15705,
+        "cos_e/v1.11": 3117,
+        "glue/mrpc": 3156,
+        "kilt_tasks/hotpotqa": 3075
+      },
+      "step": 1270
+    },
+    {
+      "epoch": 0.13,
+      "learning_rate": 0.0001,
+      "loss": 1.1848,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3126,
+        "ag_news": 3091,
+        "amazon_polarity": 3124,
+        "cnn_dailymail/3.0.0": 3206,
+        "common_gen": 3158,
+        "copa": 15829,
+        "cos_e/v1.11": 3147,
+        "glue/mrpc": 3186,
+        "kilt_tasks/hotpotqa": 3093
+      },
+      "step": 1280
+    },
+    {
+      "epoch": 0.13,
+      "learning_rate": 0.0001,
+      "loss": 1.125,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3154,
+        "ag_news": 3119,
+        "amazon_polarity": 3153,
+        "cnn_dailymail/3.0.0": 3229,
+        "common_gen": 3184,
+        "copa": 15930,
+        "cos_e/v1.11": 3166,
+        "glue/mrpc": 3218,
+        "kilt_tasks/hotpotqa": 3127
+      },
+      "step": 1290
+    },
+    {
+      "epoch": 0.13,
+      "learning_rate": 0.0001,
+      "loss": 1.0471,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3173,
+        "ag_news": 3138,
+        "amazon_polarity": 3174,
+        "cnn_dailymail/3.0.0": 3251,
+        "common_gen": 3224,
+        "copa": 16060,
+        "cos_e/v1.11": 3192,
+        "glue/mrpc": 3242,
+        "kilt_tasks/hotpotqa": 3146
+      },
+      "step": 1300
+    },
+    {
+      "epoch": 0.13,
+      "eval_accuracy": 0.625,
+      "eval_runtime": 0.165,
+      "eval_samples_per_second": 96.944,
+      "eval_steps_per_second": 6.059,
+      "step": 1300
+    },
+    {
+      "epoch": 0.13,
+      "learning_rate": 0.0001,
+      "loss": 1.0923,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3196,
+        "ag_news": 3163,
+        "amazon_polarity": 3191,
+        "cnn_dailymail/3.0.0": 3275,
+        "common_gen": 3246,
+        "copa": 16190,
+        "cos_e/v1.11": 3214,
+        "glue/mrpc": 3270,
+        "kilt_tasks/hotpotqa": 3175
+      },
+      "step": 1310
+    },
+    {
+      "epoch": 0.13,
+      "learning_rate": 0.0001,
+      "loss": 1.1818,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3220,
+        "ag_news": 3184,
+        "amazon_polarity": 3207,
+        "cnn_dailymail/3.0.0": 3293,
+        "common_gen": 3265,
+        "copa": 16330,
+        "cos_e/v1.11": 3234,
+        "glue/mrpc": 3298,
+        "kilt_tasks/hotpotqa": 3209
+      },
+      "step": 1320
+    },
+    {
+      "epoch": 0.13,
+      "learning_rate": 0.0001,
+      "loss": 1.0668,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3250,
+        "ag_news": 3205,
+        "amazon_polarity": 3226,
+        "cnn_dailymail/3.0.0": 3316,
+        "common_gen": 3293,
+        "copa": 16456,
+        "cos_e/v1.11": 3258,
+        "glue/mrpc": 3329,
+        "kilt_tasks/hotpotqa": 3227
+      },
+      "step": 1330
+    },
+    {
+      "epoch": 0.13,
+      "learning_rate": 0.0001,
+      "loss": 1.0389,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3269,
+        "ag_news": 3234,
+        "amazon_polarity": 3257,
+        "cnn_dailymail/3.0.0": 3340,
+        "common_gen": 3316,
+        "copa": 16579,
+        "cos_e/v1.11": 3277,
+        "glue/mrpc": 3358,
+        "kilt_tasks/hotpotqa": 3250
+      },
+      "step": 1340
+    },
+    {
+      "epoch": 0.14,
+      "learning_rate": 0.0001,
+      "loss": 1.1162,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3295,
+        "ag_news": 3261,
+        "amazon_polarity": 3273,
+        "cnn_dailymail/3.0.0": 3370,
+        "common_gen": 3339,
+        "copa": 16703,
+        "cos_e/v1.11": 3293,
+        "glue/mrpc": 3390,
+        "kilt_tasks/hotpotqa": 3276
+      },
+      "step": 1350
+    },
+    {
+      "epoch": 0.14,
+      "learning_rate": 0.0001,
+      "loss": 1.0372,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3314,
+        "ag_news": 3285,
+        "amazon_polarity": 3303,
+        "cnn_dailymail/3.0.0": 3401,
+        "common_gen": 3362,
+        "copa": 16832,
+        "cos_e/v1.11": 3305,
+        "glue/mrpc": 3413,
+        "kilt_tasks/hotpotqa": 3305
+      },
+      "step": 1360
+    },
+    {
+      "epoch": 0.14,
+      "learning_rate": 0.0001,
+      "loss": 1.2658,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3335,
+        "ag_news": 3307,
+        "amazon_polarity": 3334,
+        "cnn_dailymail/3.0.0": 3433,
+        "common_gen": 3388,
+        "copa": 16939,
+        "cos_e/v1.11": 3325,
+        "glue/mrpc": 3449,
+        "kilt_tasks/hotpotqa": 3330
+      },
+      "step": 1370
+    },
+    {
+      "epoch": 0.14,
+      "learning_rate": 0.0001,
+      "loss": 0.9954,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3356,
+        "ag_news": 3334,
+        "amazon_polarity": 3356,
+        "cnn_dailymail/3.0.0": 3457,
+        "common_gen": 3411,
+        "copa": 17069,
+        "cos_e/v1.11": 3349,
+        "glue/mrpc": 3480,
+        "kilt_tasks/hotpotqa": 3348
+      },
+      "step": 1380
+    },
+    {
+      "epoch": 0.14,
+      "learning_rate": 0.0001,
+      "loss": 1.038,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3384,
+        "ag_news": 3351,
+        "amazon_polarity": 3383,
+        "cnn_dailymail/3.0.0": 3484,
+        "common_gen": 3433,
+        "copa": 17196,
+        "cos_e/v1.11": 3374,
+        "glue/mrpc": 3505,
+        "kilt_tasks/hotpotqa": 3370
+      },
+      "step": 1390
+    },
+    {
+      "epoch": 0.14,
+      "learning_rate": 0.0001,
+      "loss": 1.019,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3421,
+        "ag_news": 3378,
+        "amazon_polarity": 3405,
+        "cnn_dailymail/3.0.0": 3501,
+        "common_gen": 3453,
+        "copa": 17325,
+        "cos_e/v1.11": 3389,
+        "glue/mrpc": 3529,
+        "kilt_tasks/hotpotqa": 3399
+      },
+      "step": 1400
+    },
+    {
+      "epoch": 0.14,
+      "eval_accuracy": 0.75,
+      "eval_runtime": 0.2736,
+      "eval_samples_per_second": 58.49,
+      "eval_steps_per_second": 3.656,
+      "step": 1400
+    },
+    {
+      "epoch": 0.14,
+      "learning_rate": 0.0001,
+      "loss": 1.2797,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3440,
+        "ag_news": 3408,
+        "amazon_polarity": 3433,
+        "cnn_dailymail/3.0.0": 3533,
+        "common_gen": 3483,
+        "copa": 17449,
+        "cos_e/v1.11": 3406,
+        "glue/mrpc": 3547,
+        "kilt_tasks/hotpotqa": 3421
+      },
+      "step": 1410
+    },
+    {
+      "epoch": 0.14,
+      "learning_rate": 0.0001,
+      "loss": 1.4155,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3465,
+        "ag_news": 3436,
+        "amazon_polarity": 3460,
+        "cnn_dailymail/3.0.0": 3558,
+        "common_gen": 3511,
+        "copa": 17560,
+        "cos_e/v1.11": 3431,
+        "glue/mrpc": 3575,
+        "kilt_tasks/hotpotqa": 3444
+      },
+      "step": 1420
+    },
+    {
+      "epoch": 0.14,
+      "learning_rate": 0.0001,
+      "loss": 0.9805,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3493,
+        "ag_news": 3467,
+        "amazon_polarity": 3483,
+        "cnn_dailymail/3.0.0": 3574,
+        "common_gen": 3529,
+        "copa": 17683,
+        "cos_e/v1.11": 3454,
+        "glue/mrpc": 3604,
+        "kilt_tasks/hotpotqa": 3473
+      },
+      "step": 1430
+    },
+    {
+      "epoch": 0.14,
+      "learning_rate": 0.0001,
+      "loss": 1.1243,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3521,
+        "ag_news": 3492,
+        "amazon_polarity": 3503,
+        "cnn_dailymail/3.0.0": 3600,
+        "common_gen": 3553,
+        "copa": 17805,
+        "cos_e/v1.11": 3481,
+        "glue/mrpc": 3629,
+        "kilt_tasks/hotpotqa": 3496
+      },
+      "step": 1440
+    },
+    {
+      "epoch": 0.14,
+      "learning_rate": 0.0001,
+      "loss": 1.0671,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3545,
+        "ag_news": 3526,
+        "amazon_polarity": 3522,
+        "cnn_dailymail/3.0.0": 3625,
+        "common_gen": 3578,
+        "copa": 17930,
+        "cos_e/v1.11": 3502,
+        "glue/mrpc": 3648,
+        "kilt_tasks/hotpotqa": 3524
+      },
+      "step": 1450
+    },
+    {
+      "epoch": 0.15,
+      "learning_rate": 0.0001,
+      "loss": 1.1698,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3566,
+        "ag_news": 3544,
+        "amazon_polarity": 3552,
+        "cnn_dailymail/3.0.0": 3651,
+        "common_gen": 3603,
+        "copa": 18044,
+        "cos_e/v1.11": 3533,
+        "glue/mrpc": 3679,
+        "kilt_tasks/hotpotqa": 3548
+      },
+      "step": 1460
+    },
+    {
+      "epoch": 0.15,
+      "learning_rate": 0.0001,
+      "loss": 0.977,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3593,
+        "ag_news": 3567,
+        "amazon_polarity": 3575,
+        "cnn_dailymail/3.0.0": 3670,
+        "common_gen": 3625,
+        "copa": 18162,
+        "cos_e/v1.11": 3561,
+        "glue/mrpc": 3710,
+        "kilt_tasks/hotpotqa": 3577
+      },
+      "step": 1470
+    },
+    {
+      "epoch": 0.15,
+      "learning_rate": 0.0001,
+      "loss": 0.9105,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3615,
+        "ag_news": 3588,
+        "amazon_polarity": 3608,
+        "cnn_dailymail/3.0.0": 3687,
+        "common_gen": 3642,
+        "copa": 18299,
+        "cos_e/v1.11": 3590,
+        "glue/mrpc": 3728,
+        "kilt_tasks/hotpotqa": 3603
+      },
+      "step": 1480
+    },
+    {
+      "epoch": 0.15,
+      "learning_rate": 0.0001,
+      "loss": 1.167,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3629,
+        "ag_news": 3616,
+        "amazon_polarity": 3635,
+        "cnn_dailymail/3.0.0": 3708,
+        "common_gen": 3667,
+        "copa": 18422,
+        "cos_e/v1.11": 3626,
+        "glue/mrpc": 3750,
+        "kilt_tasks/hotpotqa": 3627
+      },
+      "step": 1490
+    },
+    {
+      "epoch": 0.15,
+      "learning_rate": 0.0001,
+      "loss": 0.9425,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3656,
+        "ag_news": 3639,
+        "amazon_polarity": 3663,
+        "cnn_dailymail/3.0.0": 3727,
+        "common_gen": 3686,
+        "copa": 18558,
+        "cos_e/v1.11": 3645,
+        "glue/mrpc": 3774,
+        "kilt_tasks/hotpotqa": 3652
+      },
+      "step": 1500
+    },
+    {
+      "epoch": 0.15,
+      "eval_accuracy": 0.625,
+      "eval_runtime": 0.2834,
+      "eval_samples_per_second": 56.457,
+      "eval_steps_per_second": 3.529,
+      "step": 1500
+    },
+    {
+      "epoch": 0.15,
+      "learning_rate": 0.0001,
+      "loss": 1.1701,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3673,
+        "ag_news": 3659,
+        "amazon_polarity": 3697,
+        "cnn_dailymail/3.0.0": 3760,
+        "common_gen": 3710,
+        "copa": 18668,
+        "cos_e/v1.11": 3679,
+        "glue/mrpc": 3799,
+        "kilt_tasks/hotpotqa": 3675
+      },
+      "step": 1510
+    },
+    {
+      "epoch": 0.15,
+      "learning_rate": 0.0001,
+      "loss": 1.0325,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3694,
+        "ag_news": 3685,
+        "amazon_polarity": 3723,
+        "cnn_dailymail/3.0.0": 3779,
+        "common_gen": 3745,
+        "copa": 18789,
+        "cos_e/v1.11": 3706,
+        "glue/mrpc": 3821,
+        "kilt_tasks/hotpotqa": 3698
+      },
+      "step": 1520
+    },
+    {
+      "epoch": 0.15,
+      "learning_rate": 0.0001,
+      "loss": 0.947,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3724,
+        "ag_news": 3715,
+        "amazon_polarity": 3751,
+        "cnn_dailymail/3.0.0": 3801,
+        "common_gen": 3764,
+        "copa": 18913,
+        "cos_e/v1.11": 3739,
+        "glue/mrpc": 3845,
+        "kilt_tasks/hotpotqa": 3708
+      },
+      "step": 1530
+    },
+    {
+      "epoch": 0.15,
+      "learning_rate": 0.0001,
+      "loss": 1.218,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3743,
+        "ag_news": 3739,
+        "amazon_polarity": 3779,
+        "cnn_dailymail/3.0.0": 3826,
+        "common_gen": 3792,
+        "copa": 19043,
+        "cos_e/v1.11": 3765,
+        "glue/mrpc": 3867,
+        "kilt_tasks/hotpotqa": 3726
+      },
+      "step": 1540
+    },
+    {
+      "epoch": 0.15,
+      "learning_rate": 0.0001,
+      "loss": 1.104,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3769,
+        "ag_news": 3755,
+        "amazon_polarity": 3804,
+        "cnn_dailymail/3.0.0": 3846,
+        "common_gen": 3822,
+        "copa": 19164,
+        "cos_e/v1.11": 3799,
+        "glue/mrpc": 3895,
+        "kilt_tasks/hotpotqa": 3746
+      },
+      "step": 1550
+    },
+    {
+      "epoch": 0.16,
+      "learning_rate": 0.0001,
+      "loss": 1.121,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3790,
+        "ag_news": 3788,
+        "amazon_polarity": 3823,
+        "cnn_dailymail/3.0.0": 3867,
+        "common_gen": 3849,
+        "copa": 19288,
+        "cos_e/v1.11": 3826,
+        "glue/mrpc": 3917,
+        "kilt_tasks/hotpotqa": 3772
+      },
+      "step": 1560
+    },
+    {
+      "epoch": 0.16,
+      "learning_rate": 0.0001,
+      "loss": 0.9634,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3814,
+        "ag_news": 3812,
+        "amazon_polarity": 3853,
+        "cnn_dailymail/3.0.0": 3891,
+        "common_gen": 3876,
+        "copa": 19411,
+        "cos_e/v1.11": 3847,
+        "glue/mrpc": 3943,
+        "kilt_tasks/hotpotqa": 3793
+      },
+      "step": 1570
+    },
+    {
+      "epoch": 0.16,
+      "learning_rate": 0.0001,
+      "loss": 1.1501,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3836,
+        "ag_news": 3836,
+        "amazon_polarity": 3887,
+        "cnn_dailymail/3.0.0": 3915,
+        "common_gen": 3901,
+        "copa": 19524,
+        "cos_e/v1.11": 3878,
+        "glue/mrpc": 3970,
+        "kilt_tasks/hotpotqa": 3813
+      },
+      "step": 1580
+    },
+    {
+      "epoch": 0.16,
+      "learning_rate": 0.0001,
+      "loss": 1.3361,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3864,
+        "ag_news": 3860,
+        "amazon_polarity": 3905,
+        "cnn_dailymail/3.0.0": 3945,
+        "common_gen": 3934,
+        "copa": 19644,
+        "cos_e/v1.11": 3897,
+        "glue/mrpc": 3992,
+        "kilt_tasks/hotpotqa": 3839
+      },
+      "step": 1590
+    },
+    {
+      "epoch": 0.16,
+      "learning_rate": 0.0001,
+      "loss": 1.1727,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3894,
+        "ag_news": 3885,
+        "amazon_polarity": 3939,
+        "cnn_dailymail/3.0.0": 3970,
+        "common_gen": 3961,
+        "copa": 19757,
+        "cos_e/v1.11": 3917,
+        "glue/mrpc": 4012,
+        "kilt_tasks/hotpotqa": 3865
+      },
+      "step": 1600
+    },
+    {
+      "epoch": 0.16,
+      "eval_accuracy": 0.75,
+      "eval_runtime": 0.4924,
+      "eval_samples_per_second": 32.493,
+      "eval_steps_per_second": 2.031,
+      "step": 1600
+    },
+    {
+      "epoch": 0.16,
+      "learning_rate": 0.0001,
+      "loss": 1.1097,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3924,
+        "ag_news": 3901,
+        "amazon_polarity": 3961,
+        "cnn_dailymail/3.0.0": 3994,
+        "common_gen": 3990,
+        "copa": 19871,
+        "cos_e/v1.11": 3953,
+        "glue/mrpc": 4033,
+        "kilt_tasks/hotpotqa": 3893
+      },
+      "step": 1610
+    },
+    {
+      "epoch": 0.16,
+      "learning_rate": 0.0001,
+      "loss": 1.0614,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3957,
+        "ag_news": 3922,
+        "amazon_polarity": 3996,
+        "cnn_dailymail/3.0.0": 4015,
+        "common_gen": 4007,
+        "copa": 19982,
+        "cos_e/v1.11": 3982,
+        "glue/mrpc": 4058,
+        "kilt_tasks/hotpotqa": 3921
+      },
+      "step": 1620
+    },
+    {
+      "epoch": 0.16,
+      "learning_rate": 0.0001,
+      "loss": 1.005,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 3991,
+        "ag_news": 3946,
+        "amazon_polarity": 4014,
+        "cnn_dailymail/3.0.0": 4037,
+        "common_gen": 4025,
+        "copa": 20104,
+        "cos_e/v1.11": 4009,
+        "glue/mrpc": 4084,
+        "kilt_tasks/hotpotqa": 3950
+      },
+      "step": 1630
+    },
+    {
+      "epoch": 0.16,
+      "learning_rate": 0.0001,
+      "loss": 0.8505,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4018,
+        "ag_news": 3968,
+        "amazon_polarity": 4037,
+        "cnn_dailymail/3.0.0": 4052,
+        "common_gen": 4047,
+        "copa": 20237,
+        "cos_e/v1.11": 4038,
+        "glue/mrpc": 4109,
+        "kilt_tasks/hotpotqa": 3974
+      },
+      "step": 1640
+    },
+    {
+      "epoch": 0.17,
+      "learning_rate": 0.0001,
+      "loss": 1.1286,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4037,
+        "ag_news": 3988,
+        "amazon_polarity": 4068,
+        "cnn_dailymail/3.0.0": 4075,
+        "common_gen": 4073,
+        "copa": 20367,
+        "cos_e/v1.11": 4061,
+        "glue/mrpc": 4135,
+        "kilt_tasks/hotpotqa": 3996
+      },
+      "step": 1650
+    },
+    {
+      "epoch": 0.17,
+      "learning_rate": 0.0001,
+      "loss": 0.9957,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4064,
+        "ag_news": 4009,
+        "amazon_polarity": 4095,
+        "cnn_dailymail/3.0.0": 4103,
+        "common_gen": 4101,
+        "copa": 20487,
+        "cos_e/v1.11": 4079,
+        "glue/mrpc": 4161,
+        "kilt_tasks/hotpotqa": 4021
+      },
+      "step": 1660
+    },
+    {
+      "epoch": 0.17,
+      "learning_rate": 0.0001,
+      "loss": 1.0912,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4087,
+        "ag_news": 4031,
+        "amazon_polarity": 4119,
+        "cnn_dailymail/3.0.0": 4131,
+        "common_gen": 4121,
+        "copa": 20609,
+        "cos_e/v1.11": 4107,
+        "glue/mrpc": 4184,
+        "kilt_tasks/hotpotqa": 4051
+      },
+      "step": 1670
+    },
+    {
+      "epoch": 0.17,
+      "learning_rate": 0.0001,
+      "loss": 1.1254,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4109,
+        "ag_news": 4058,
+        "amazon_polarity": 4147,
+        "cnn_dailymail/3.0.0": 4165,
+        "common_gen": 4139,
+        "copa": 20727,
+        "cos_e/v1.11": 4136,
+        "glue/mrpc": 4208,
+        "kilt_tasks/hotpotqa": 4071
+      },
+      "step": 1680
+    },
+    {
+      "epoch": 0.17,
+      "learning_rate": 0.0001,
+      "loss": 1.2526,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4140,
+        "ag_news": 4072,
+        "amazon_polarity": 4168,
+        "cnn_dailymail/3.0.0": 4190,
+        "common_gen": 4171,
+        "copa": 20845,
+        "cos_e/v1.11": 4162,
+        "glue/mrpc": 4235,
+        "kilt_tasks/hotpotqa": 4097
+      },
+      "step": 1690
+    },
+    {
+      "epoch": 0.17,
+      "learning_rate": 0.0001,
+      "loss": 0.947,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4163,
+        "ag_news": 4101,
+        "amazon_polarity": 4194,
+        "cnn_dailymail/3.0.0": 4206,
+        "common_gen": 4195,
+        "copa": 20966,
+        "cos_e/v1.11": 4184,
+        "glue/mrpc": 4261,
+        "kilt_tasks/hotpotqa": 4130
+      },
+      "step": 1700
+    },
+    {
+      "epoch": 0.17,
+      "eval_accuracy": 0.6875,
+      "eval_runtime": 0.2661,
+      "eval_samples_per_second": 60.134,
+      "eval_steps_per_second": 3.758,
+      "step": 1700
+    },
+    {
+      "epoch": 0.17,
+      "learning_rate": 0.0001,
+      "loss": 1.1712,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4191,
+        "ag_news": 4128,
+        "amazon_polarity": 4225,
+        "cnn_dailymail/3.0.0": 4228,
+        "common_gen": 4230,
+        "copa": 21084,
+        "cos_e/v1.11": 4198,
+        "glue/mrpc": 4283,
+        "kilt_tasks/hotpotqa": 4153
+      },
+      "step": 1710
+    },
+    {
+      "epoch": 0.17,
+      "learning_rate": 0.0001,
+      "loss": 1.1891,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4219,
+        "ag_news": 4155,
+        "amazon_polarity": 4255,
+        "cnn_dailymail/3.0.0": 4255,
+        "common_gen": 4248,
+        "copa": 21202,
+        "cos_e/v1.11": 4220,
+        "glue/mrpc": 4317,
+        "kilt_tasks/hotpotqa": 4169
+      },
+      "step": 1720
+    },
+    {
+      "epoch": 0.17,
+      "learning_rate": 0.0001,
+      "loss": 0.9222,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4241,
+        "ag_news": 4190,
+        "amazon_polarity": 4274,
+        "cnn_dailymail/3.0.0": 4278,
+        "common_gen": 4269,
+        "copa": 21322,
+        "cos_e/v1.11": 4245,
+        "glue/mrpc": 4343,
+        "kilt_tasks/hotpotqa": 4198
+      },
+      "step": 1730
+    },
+    {
+      "epoch": 0.17,
+      "learning_rate": 0.0001,
+      "loss": 1.1982,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4267,
+        "ag_news": 4213,
+        "amazon_polarity": 4302,
+        "cnn_dailymail/3.0.0": 4301,
+        "common_gen": 4296,
+        "copa": 21438,
+        "cos_e/v1.11": 4271,
+        "glue/mrpc": 4369,
+        "kilt_tasks/hotpotqa": 4223
+      },
+      "step": 1740
+    },
+    {
+      "epoch": 0.17,
+      "learning_rate": 0.0001,
+      "loss": 1.0203,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4286,
+        "ag_news": 4241,
+        "amazon_polarity": 4327,
+        "cnn_dailymail/3.0.0": 4324,
+        "common_gen": 4324,
+        "copa": 21557,
+        "cos_e/v1.11": 4300,
+        "glue/mrpc": 4401,
+        "kilt_tasks/hotpotqa": 4240
+      },
+      "step": 1750
+    },
+    {
+      "epoch": 0.18,
+      "learning_rate": 0.0001,
+      "loss": 1.1769,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4309,
+        "ag_news": 4263,
+        "amazon_polarity": 4357,
+        "cnn_dailymail/3.0.0": 4348,
+        "common_gen": 4350,
+        "copa": 21662,
+        "cos_e/v1.11": 4315,
+        "glue/mrpc": 4436,
+        "kilt_tasks/hotpotqa": 4280
+      },
+      "step": 1760
+    },
+    {
+      "epoch": 0.18,
+      "learning_rate": 0.0001,
+      "loss": 1.1885,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4336,
+        "ag_news": 4293,
+        "amazon_polarity": 4376,
+        "cnn_dailymail/3.0.0": 4376,
+        "common_gen": 4372,
+        "copa": 21779,
+        "cos_e/v1.11": 4345,
+        "glue/mrpc": 4460,
+        "kilt_tasks/hotpotqa": 4303
+      },
+      "step": 1770
+    },
+    {
+      "epoch": 0.18,
+      "learning_rate": 0.0001,
+      "loss": 1.1396,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4364,
+        "ag_news": 4318,
+        "amazon_polarity": 4414,
+        "cnn_dailymail/3.0.0": 4399,
+        "common_gen": 4387,
+        "copa": 21885,
+        "cos_e/v1.11": 4379,
+        "glue/mrpc": 4489,
+        "kilt_tasks/hotpotqa": 4325
+      },
+      "step": 1780
+    },
+    {
+      "epoch": 0.18,
+      "learning_rate": 0.0001,
+      "loss": 1.1128,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4381,
+        "ag_news": 4341,
+        "amazon_polarity": 4439,
+        "cnn_dailymail/3.0.0": 4421,
+        "common_gen": 4413,
+        "copa": 22018,
+        "cos_e/v1.11": 4405,
+        "glue/mrpc": 4511,
+        "kilt_tasks/hotpotqa": 4351
+      },
+      "step": 1790
+    },
+    {
+      "epoch": 0.18,
+      "learning_rate": 0.0001,
+      "loss": 1.1093,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4401,
+        "ag_news": 4365,
+        "amazon_polarity": 4459,
+        "cnn_dailymail/3.0.0": 4451,
+        "common_gen": 4440,
+        "copa": 22147,
+        "cos_e/v1.11": 4428,
+        "glue/mrpc": 4536,
+        "kilt_tasks/hotpotqa": 4373
+      },
+      "step": 1800
+    },
+    {
+      "epoch": 0.18,
+      "eval_accuracy": 0.75,
+      "eval_runtime": 0.2938,
+      "eval_samples_per_second": 54.456,
+      "eval_steps_per_second": 3.404,
+      "step": 1800
+    },
+    {
+      "epoch": 0.18,
+      "learning_rate": 0.0001,
+      "loss": 1.207,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4428,
+        "ag_news": 4391,
+        "amazon_polarity": 4485,
+        "cnn_dailymail/3.0.0": 4478,
+        "common_gen": 4457,
+        "copa": 22277,
+        "cos_e/v1.11": 4442,
+        "glue/mrpc": 4567,
+        "kilt_tasks/hotpotqa": 4395
+      },
+      "step": 1810
+    },
+    {
+      "epoch": 0.18,
+      "learning_rate": 0.0001,
+      "loss": 1.0218,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4446,
+        "ag_news": 4409,
+        "amazon_polarity": 4508,
+        "cnn_dailymail/3.0.0": 4497,
+        "common_gen": 4478,
+        "copa": 22425,
+        "cos_e/v1.11": 4473,
+        "glue/mrpc": 4586,
+        "kilt_tasks/hotpotqa": 4418
+      },
+      "step": 1820
+    },
+    {
+      "epoch": 0.18,
+      "learning_rate": 0.0001,
+      "loss": 1.2936,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4464,
+        "ag_news": 4425,
+        "amazon_polarity": 4541,
+        "cnn_dailymail/3.0.0": 4529,
+        "common_gen": 4501,
+        "copa": 22540,
+        "cos_e/v1.11": 4495,
+        "glue/mrpc": 4614,
+        "kilt_tasks/hotpotqa": 4451
+      },
+      "step": 1830
+    },
+    {
+      "epoch": 0.18,
+      "learning_rate": 0.0001,
+      "loss": 1.2112,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4491,
+        "ag_news": 4450,
+        "amazon_polarity": 4561,
+        "cnn_dailymail/3.0.0": 4556,
+        "common_gen": 4533,
+        "copa": 22671,
+        "cos_e/v1.11": 4514,
+        "glue/mrpc": 4629,
+        "kilt_tasks/hotpotqa": 4475
+      },
+      "step": 1840
+    },
+    {
+      "epoch": 0.18,
+      "learning_rate": 0.0001,
+      "loss": 1.2136,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4509,
+        "ag_news": 4471,
+        "amazon_polarity": 4584,
+        "cnn_dailymail/3.0.0": 4584,
+        "common_gen": 4570,
+        "copa": 22796,
+        "cos_e/v1.11": 4546,
+        "glue/mrpc": 4645,
+        "kilt_tasks/hotpotqa": 4495
+      },
+      "step": 1850
+    },
+    {
+      "epoch": 0.19,
+      "learning_rate": 0.0001,
+      "loss": 1.0384,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4532,
+        "ag_news": 4494,
+        "amazon_polarity": 4609,
+        "cnn_dailymail/3.0.0": 4615,
+        "common_gen": 4596,
+        "copa": 22932,
+        "cos_e/v1.11": 4565,
+        "glue/mrpc": 4661,
+        "kilt_tasks/hotpotqa": 4516
+      },
+      "step": 1860
+    },
+    {
+      "epoch": 0.19,
+      "learning_rate": 0.0001,
+      "loss": 1.0164,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4553,
+        "ag_news": 4518,
+        "amazon_polarity": 4627,
+        "cnn_dailymail/3.0.0": 4641,
+        "common_gen": 4609,
+        "copa": 23066,
+        "cos_e/v1.11": 4603,
+        "glue/mrpc": 4684,
+        "kilt_tasks/hotpotqa": 4539
+      },
+      "step": 1870
+    },
+    {
+      "epoch": 0.19,
+      "learning_rate": 0.0001,
+      "loss": 1.2543,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4581,
+        "ag_news": 4537,
+        "amazon_polarity": 4658,
+        "cnn_dailymail/3.0.0": 4669,
+        "common_gen": 4632,
+        "copa": 23189,
+        "cos_e/v1.11": 4630,
+        "glue/mrpc": 4704,
+        "kilt_tasks/hotpotqa": 4560
+      },
+      "step": 1880
+    },
+    {
+      "epoch": 0.19,
+      "learning_rate": 0.0001,
+      "loss": 0.9936,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4600,
+        "ag_news": 4560,
+        "amazon_polarity": 4679,
+        "cnn_dailymail/3.0.0": 4689,
+        "common_gen": 4655,
+        "copa": 23322,
+        "cos_e/v1.11": 4651,
+        "glue/mrpc": 4737,
+        "kilt_tasks/hotpotqa": 4587
+      },
+      "step": 1890
+    },
+    {
+      "epoch": 0.19,
+      "learning_rate": 0.0001,
+      "loss": 1.0642,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4631,
+        "ag_news": 4582,
+        "amazon_polarity": 4698,
+        "cnn_dailymail/3.0.0": 4708,
+        "common_gen": 4676,
+        "copa": 23445,
+        "cos_e/v1.11": 4673,
+        "glue/mrpc": 4774,
+        "kilt_tasks/hotpotqa": 4613
+      },
+      "step": 1900
+    },
+    {
+      "epoch": 0.19,
+      "eval_accuracy": 0.8125,
+      "eval_runtime": 0.2589,
+      "eval_samples_per_second": 61.811,
+      "eval_steps_per_second": 3.863,
+      "step": 1900
+    },
+    {
+      "epoch": 0.19,
+      "learning_rate": 0.0001,
+      "loss": 0.8435,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4660,
+        "ag_news": 4609,
+        "amazon_polarity": 4724,
+        "cnn_dailymail/3.0.0": 4727,
+        "common_gen": 4695,
+        "copa": 23583,
+        "cos_e/v1.11": 4695,
+        "glue/mrpc": 4792,
+        "kilt_tasks/hotpotqa": 4635
+      },
+      "step": 1910
+    },
+    {
+      "epoch": 0.19,
+      "learning_rate": 0.0001,
+      "loss": 1.0075,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4681,
+        "ag_news": 4633,
+        "amazon_polarity": 4745,
+        "cnn_dailymail/3.0.0": 4747,
+        "common_gen": 4713,
+        "copa": 23723,
+        "cos_e/v1.11": 4721,
+        "glue/mrpc": 4814,
+        "kilt_tasks/hotpotqa": 4663
+      },
+      "step": 1920
+    },
+    {
+      "epoch": 0.19,
+      "learning_rate": 0.0001,
+      "loss": 1.2248,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4704,
+        "ag_news": 4651,
+        "amazon_polarity": 4768,
+        "cnn_dailymail/3.0.0": 4773,
+        "common_gen": 4738,
+        "copa": 23866,
+        "cos_e/v1.11": 4741,
+        "glue/mrpc": 4831,
+        "kilt_tasks/hotpotqa": 4688
+      },
+      "step": 1930
+    },
+    {
+      "epoch": 0.19,
+      "learning_rate": 0.0001,
+      "loss": 1.0782,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4731,
+        "ag_news": 4676,
+        "amazon_polarity": 4786,
+        "cnn_dailymail/3.0.0": 4793,
+        "common_gen": 4759,
+        "copa": 23992,
+        "cos_e/v1.11": 4763,
+        "glue/mrpc": 4859,
+        "kilt_tasks/hotpotqa": 4721
+      },
+      "step": 1940
+    },
+    {
+      "epoch": 0.2,
+      "learning_rate": 0.0001,
+      "loss": 0.8585,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4752,
+        "ag_news": 4710,
+        "amazon_polarity": 4813,
+        "cnn_dailymail/3.0.0": 4812,
+        "common_gen": 4780,
+        "copa": 24111,
+        "cos_e/v1.11": 4785,
+        "glue/mrpc": 4891,
+        "kilt_tasks/hotpotqa": 4746
+      },
+      "step": 1950
+    },
+    {
+      "epoch": 0.2,
+      "learning_rate": 0.0001,
+      "loss": 1.0387,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4773,
+        "ag_news": 4738,
+        "amazon_polarity": 4838,
+        "cnn_dailymail/3.0.0": 4839,
+        "common_gen": 4808,
+        "copa": 24231,
+        "cos_e/v1.11": 4805,
+        "glue/mrpc": 4916,
+        "kilt_tasks/hotpotqa": 4772
+      },
+      "step": 1960
+    },
+    {
+      "epoch": 0.2,
+      "learning_rate": 0.0001,
+      "loss": 1.2598,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4798,
+        "ag_news": 4760,
+        "amazon_polarity": 4860,
+        "cnn_dailymail/3.0.0": 4874,
+        "common_gen": 4838,
+        "copa": 24350,
+        "cos_e/v1.11": 4824,
+        "glue/mrpc": 4935,
+        "kilt_tasks/hotpotqa": 4801
+      },
+      "step": 1970
+    },
+    {
+      "epoch": 0.2,
+      "learning_rate": 0.0001,
+      "loss": 1.0709,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4827,
+        "ag_news": 4786,
+        "amazon_polarity": 4885,
+        "cnn_dailymail/3.0.0": 4901,
+        "common_gen": 4864,
+        "copa": 24485,
+        "cos_e/v1.11": 4842,
+        "glue/mrpc": 4954,
+        "kilt_tasks/hotpotqa": 4816
+      },
+      "step": 1980
+    },
+    {
+      "epoch": 0.2,
+      "learning_rate": 0.0001,
+      "loss": 1.1718,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4856,
+        "ag_news": 4796,
+        "amazon_polarity": 4915,
+        "cnn_dailymail/3.0.0": 4936,
+        "common_gen": 4886,
+        "copa": 24605,
+        "cos_e/v1.11": 4863,
+        "glue/mrpc": 4977,
+        "kilt_tasks/hotpotqa": 4846
+      },
+      "step": 1990
+    },
+    {
+      "epoch": 0.2,
+      "learning_rate": 0.0001,
+      "loss": 0.9797,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4874,
+        "ag_news": 4822,
+        "amazon_polarity": 4938,
+        "cnn_dailymail/3.0.0": 4957,
+        "common_gen": 4912,
+        "copa": 24733,
+        "cos_e/v1.11": 4882,
+        "glue/mrpc": 5007,
+        "kilt_tasks/hotpotqa": 4875
+      },
+      "step": 2000
+    },
+    {
+      "epoch": 0.2,
+      "eval_accuracy": 0.6875,
+      "eval_runtime": 0.2791,
+      "eval_samples_per_second": 57.337,
+      "eval_steps_per_second": 3.584,
+      "step": 2000
+    },
+    {
+      "epoch": 0.2,
+      "learning_rate": 0.0001,
+      "loss": 1.0684,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4896,
+        "ag_news": 4850,
+        "amazon_polarity": 4960,
+        "cnn_dailymail/3.0.0": 4974,
+        "common_gen": 4939,
+        "copa": 24841,
+        "cos_e/v1.11": 4909,
+        "glue/mrpc": 5044,
+        "kilt_tasks/hotpotqa": 4907
+      },
+      "step": 2010
+    },
+    {
+      "epoch": 0.2,
+      "learning_rate": 0.0001,
+      "loss": 1.2176,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4926,
+        "ag_news": 4866,
+        "amazon_polarity": 4981,
+        "cnn_dailymail/3.0.0": 4998,
+        "common_gen": 4969,
+        "copa": 24958,
+        "cos_e/v1.11": 4932,
+        "glue/mrpc": 5078,
+        "kilt_tasks/hotpotqa": 4932
+      },
+      "step": 2020
+    },
+    {
+      "epoch": 0.2,
+      "learning_rate": 0.0001,
+      "loss": 1.0467,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4948,
+        "ag_news": 4890,
+        "amazon_polarity": 5014,
+        "cnn_dailymail/3.0.0": 5025,
+        "common_gen": 4998,
+        "copa": 25073,
+        "cos_e/v1.11": 4953,
+        "glue/mrpc": 5099,
+        "kilt_tasks/hotpotqa": 4960
+      },
+      "step": 2030
+    },
+    {
+      "epoch": 0.2,
+      "learning_rate": 0.0001,
+      "loss": 1.0492,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4971,
+        "ag_news": 4909,
+        "amazon_polarity": 5041,
+        "cnn_dailymail/3.0.0": 5048,
+        "common_gen": 5025,
+        "copa": 25204,
+        "cos_e/v1.11": 4974,
+        "glue/mrpc": 5124,
+        "kilt_tasks/hotpotqa": 4984
+      },
+      "step": 2040
+    },
+    {
+      "epoch": 0.2,
+      "learning_rate": 0.0001,
+      "loss": 1.1141,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 4988,
+        "ag_news": 4938,
+        "amazon_polarity": 5071,
+        "cnn_dailymail/3.0.0": 5078,
+        "common_gen": 5047,
+        "copa": 25325,
+        "cos_e/v1.11": 4998,
+        "glue/mrpc": 5151,
+        "kilt_tasks/hotpotqa": 5004
+      },
+      "step": 2050
+    },
+    {
+      "epoch": 0.21,
+      "learning_rate": 0.0001,
+      "loss": 0.9809,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 5010,
+        "ag_news": 4956,
+        "amazon_polarity": 5085,
+        "cnn_dailymail/3.0.0": 5103,
+        "common_gen": 5071,
+        "copa": 25464,
+        "cos_e/v1.11": 5027,
+        "glue/mrpc": 5168,
+        "kilt_tasks/hotpotqa": 5036
+      },
+      "step": 2060
+    },
+    {
+      "epoch": 0.21,
+      "learning_rate": 0.0001,
+      "loss": 1.0067,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 5034,
+        "ag_news": 4976,
+        "amazon_polarity": 5111,
+        "cnn_dailymail/3.0.0": 5121,
+        "common_gen": 5092,
+        "copa": 25590,
+        "cos_e/v1.11": 5049,
+        "glue/mrpc": 5210,
+        "kilt_tasks/hotpotqa": 5057
+      },
+      "step": 2070
+    },
+    {
+      "epoch": 0.21,
+      "learning_rate": 0.0001,
+      "loss": 1.2423,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 5053,
+        "ag_news": 4993,
+        "amazon_polarity": 5131,
+        "cnn_dailymail/3.0.0": 5145,
+        "common_gen": 5120,
+        "copa": 25716,
+        "cos_e/v1.11": 5078,
+        "glue/mrpc": 5228,
+        "kilt_tasks/hotpotqa": 5096
+      },
+      "step": 2080
+    },
+    {
+      "epoch": 0.21,
+      "learning_rate": 0.0001,
+      "loss": 1.0164,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 5077,
+        "ag_news": 5025,
+        "amazon_polarity": 5159,
+        "cnn_dailymail/3.0.0": 5163,
+        "common_gen": 5150,
+        "copa": 25836,
+        "cos_e/v1.11": 5108,
+        "glue/mrpc": 5246,
+        "kilt_tasks/hotpotqa": 5116
+      },
+      "step": 2090
+    },
+    {
+      "epoch": 0.21,
+      "learning_rate": 0.0001,
+      "loss": 1.0621,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 5104,
+        "ag_news": 5051,
+        "amazon_polarity": 5198,
+        "cnn_dailymail/3.0.0": 5184,
+        "common_gen": 5174,
+        "copa": 25943,
+        "cos_e/v1.11": 5138,
+        "glue/mrpc": 5272,
+        "kilt_tasks/hotpotqa": 5136
+      },
+      "step": 2100
+    },
+    {
+      "epoch": 0.21,
+      "eval_accuracy": 0.5625,
+      "eval_runtime": 0.4984,
+      "eval_samples_per_second": 32.102,
+      "eval_steps_per_second": 2.006,
+      "step": 2100
+    },
+    {
+      "epoch": 0.21,
+      "learning_rate": 0.0001,
+      "loss": 0.9273,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 5125,
+        "ag_news": 5087,
+        "amazon_polarity": 5215,
+        "cnn_dailymail/3.0.0": 5207,
+        "common_gen": 5197,
+        "copa": 26072,
+        "cos_e/v1.11": 5164,
+        "glue/mrpc": 5292,
+        "kilt_tasks/hotpotqa": 5161
+      },
+      "step": 2110
+    },
+    {
+      "epoch": 0.21,
+      "learning_rate": 0.0001,
+      "loss": 0.9995,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 5154,
+        "ag_news": 5108,
+        "amazon_polarity": 5245,
+        "cnn_dailymail/3.0.0": 5228,
+        "common_gen": 5222,
+        "copa": 26192,
+        "cos_e/v1.11": 5187,
+        "glue/mrpc": 5319,
+        "kilt_tasks/hotpotqa": 5185
+      },
+      "step": 2120
+    },
+    {
+      "epoch": 0.21,
+      "learning_rate": 0.0001,
+      "loss": 0.9756,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 5172,
+        "ag_news": 5133,
+        "amazon_polarity": 5265,
+        "cnn_dailymail/3.0.0": 5252,
+        "common_gen": 5251,
+        "copa": 26325,
+        "cos_e/v1.11": 5203,
+        "glue/mrpc": 5346,
+        "kilt_tasks/hotpotqa": 5213
+      },
+      "step": 2130
+    },
+    {
+      "epoch": 0.21,
+      "learning_rate": 0.0001,
+      "loss": 1.0966,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 5198,
+        "ag_news": 5153,
+        "amazon_polarity": 5294,
+        "cnn_dailymail/3.0.0": 5278,
+        "common_gen": 5272,
+        "copa": 26442,
+        "cos_e/v1.11": 5231,
+        "glue/mrpc": 5369,
+        "kilt_tasks/hotpotqa": 5243
+      },
+      "step": 2140
+    },
+    {
+      "epoch": 0.21,
+      "learning_rate": 0.0001,
+      "loss": 0.9893,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 5219,
+        "ag_news": 5177,
+        "amazon_polarity": 5324,
+        "cnn_dailymail/3.0.0": 5302,
+        "common_gen": 5292,
+        "copa": 26560,
+        "cos_e/v1.11": 5256,
+        "glue/mrpc": 5402,
+        "kilt_tasks/hotpotqa": 5268
+      },
+      "step": 2150
+    },
+    {
+      "epoch": 0.22,
+      "learning_rate": 0.0001,
+      "loss": 1.127,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 5245,
+        "ag_news": 5198,
+        "amazon_polarity": 5361,
+        "cnn_dailymail/3.0.0": 5331,
+        "common_gen": 5313,
+        "copa": 26678,
+        "cos_e/v1.11": 5281,
+        "glue/mrpc": 5424,
+        "kilt_tasks/hotpotqa": 5289
+      },
+      "step": 2160
+    },
+    {
+      "epoch": 0.22,
+      "learning_rate": 0.0001,
+      "loss": 1.0812,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 5271,
+        "ag_news": 5221,
+        "amazon_polarity": 5378,
+        "cnn_dailymail/3.0.0": 5355,
+        "common_gen": 5344,
+        "copa": 26802,
+        "cos_e/v1.11": 5306,
+        "glue/mrpc": 5447,
+        "kilt_tasks/hotpotqa": 5316
+      },
+      "step": 2170
+    },
+    {
+      "epoch": 0.22,
+      "learning_rate": 0.0001,
+      "loss": 1.1285,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 5301,
+        "ag_news": 5245,
+        "amazon_polarity": 5404,
+        "cnn_dailymail/3.0.0": 5381,
+        "common_gen": 5365,
+        "copa": 26937,
+        "cos_e/v1.11": 5327,
+        "glue/mrpc": 5465,
+        "kilt_tasks/hotpotqa": 5335
+      },
+      "step": 2180
+    },
+    {
+      "epoch": 0.22,
+      "learning_rate": 0.0001,
+      "loss": 1.0383,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 5331,
+        "ag_news": 5261,
+        "amazon_polarity": 5423,
+        "cnn_dailymail/3.0.0": 5407,
+        "common_gen": 5395,
+        "copa": 27065,
+        "cos_e/v1.11": 5351,
+        "glue/mrpc": 5494,
+        "kilt_tasks/hotpotqa": 5353
+      },
+      "step": 2190
+    },
+    {
+      "epoch": 0.22,
+      "learning_rate": 0.0001,
+      "loss": 1.0806,
+      "samples_seen_per_dataset": {
+        "adversarial_qa/dbidaf": 5357,
+        "ag_news": 5277,
+        "amazon_polarity": 5454,
+        "cnn_dailymail/3.0.0": 5429,
+        "common_gen": 5414,
+        "copa": 27186,
+        "cos_e/v1.11": 5382,
+        "glue/mrpc": 5522,
+        "kilt_tasks/hotpotqa": 5379
+      },
+      "step": 2200
+    },
+    {
+      "epoch": 0.22,
+      "eval_accuracy": 0.8125,
+      "eval_runtime": 0.2195,
+      "eval_samples_per_second": 72.893,
+      "eval_steps_per_second": 4.556,
+      "step": 2200
+    },
+    {
+      "epoch": 0.22,
+      "step": 2200,
+      "total_flos": 3.3876992682786816e+17,
+      "train_loss": 1.1676081731102683,
+      "train_runtime": 10565.1904,
+      "train_samples_per_second": 30.288,
+      "train_steps_per_second": 0.947
+    }
+  ],
+  "max_steps": 10000,
+  "num_train_epochs": 9223372036854775807,
+  "total_flos": 3.3876992682786816e+17,
+  "trial_name": null,
+  "trial_params": null
+}
